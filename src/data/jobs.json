@@ -1,0 +1,1847 @@
+[
+  {
+    "slug": "data-entry-operator",
+    "title": "Data Entry Operator",
+    "sector": "bpo-customer-support",
+    "sectorName": "BPO & Customer Support",
+    "score": 92,
+    "label": "Very High",
+    "timeline": "2025-2028",
+    "confidence": "High",
+    "summary": "Routine alphanumeric typing, invoice ledger transfer, and database population are among the fastest tasks being superseded by vision OCR, document intelligence pipelines, and direct API integrations.",
+    "tasks": [
+      { "name": "Extracting text from scanned PDFs and receipts", "status": "now", "note": "Vision APIs achieve >98% accuracy on standard forms" },
+      { "name": "Entering customer info into CRM portals", "status": "now", "note": "Replaced by direct webhooks and automated parsing" },
+      { "name": "Basic spreadsheet data cleanup and deduplication", "status": "now", "note": "Automated with Python scripts and AI data preparation tools" },
+      { "name": "Flagging contradictory or corrupted records", "status": "5years", "note": "LLMs reason through contextual discrepancies" },
+      { "name": "Physical handwritten regional script deciphering", "status": "unlikely", "note": "Faded local scripts in rural registries still need human eyes" }
+    ],
+    "aiWillDo": [
+      "Instantly extract tabular records from printed invoices and tax bills",
+      "Auto-fill CRM fields directly from incoming emails and chats",
+      "Standardize postal addresses, phone numbers, and GSTIN codes"
+    ],
+    "humansWillDo": [
+      "Verify highly faded handwritten land records and judicial deed stamps",
+      "Audit automated intake pipelines for data sovereignty and confidentiality breaches",
+      "Resolve physical dispute filings where documents are damaged or contested"
+    ],
+    "skillsToLearn": [
+      "SQL database querying and relational data modeling",
+      "Python scripting for process automation (Pandas, OpenPyXL)",
+      "Prompt engineering for document workflow tools",
+      "Quality assurance and data governance standards"
+    ],
+    "toolsToLearn": ["PostgreSQL", "Power BI", "Make / Zapier", "Python (Pandas)", "Docsumo"],
+    "saferCareers": [
+      { "title": "Data Analyst & BI Developer", "slug": "data-analyst" },
+      { "title": "Cybersecurity & Penetration Tester", "slug": "cybersecurity-analyst" }
+    ],
+    "indiaNote": "Millions of data entry jobs in municipal offices, small accounting firms, and BPOs are being phased out as government portals (DigiLocker, GSTN, Account Aggregator) shift from physical scans to machine-readable JSON schemas.",
+    "salaryRangeINR": "₹1.8 Lakh - ₹3.2 Lakh / year",
+    "hiringTrend": "Declining",
+    "faqs": [
+      { "q": "Will data entry jobs disappear completely in India by 2028?", "a": "Routine digital copy-paste jobs will largely decline by 80-90%. However, specialized roles verifying legal records, land patents in regional languages, and high-security compliance will persist under new titles like Data Validation Associate." },
+      { "q": "What should a current data entry operator learn first?", "a": "Learn basic Excel automation, SQL querying, and introductory data analysis in Power BI or Google Looker Studio to transition into business reporting." },
+      { "q": "Are Indian government data entry roles safer than private ones?", "a": "Government contractual jobs (outsource/tender) are shrinking fast, but permanent clerical staff will be retrained into grievance redressal and citizen assistance." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "hindi-english-digital-translator",
+    "title": "Hindi-English Digital Translator",
+    "sector": "media-content",
+    "sectorName": "Media & Content",
+    "score": 89,
+    "label": "Very High",
+    "timeline": "2025-2028",
+    "confidence": "High",
+    "summary": "Neural machine translation models fine-tuned on Indic corpora (like Bhashini and Sarvam) have drastically reduced turnaround times and costs for commercial document translation and subtitle localization.",
+    "tasks": [
+      { "name": "Translating standard corporate press releases and memos", "status": "now", "note": "Zero-shot translation models match human baseline for corporate prose" },
+      { "name": "Generating basic movie and OTT subtitle drafts", "status": "now", "note": "Timecoded automated speech-to-text translation handles first drafts" },
+      { "name": "Translating technical manuals and legal terms", "status": "5years", "note": "Domain-specialized embeddings produce high-fidelity legal drafts" },
+      { "name": "Capturing regional satire, idioms, and double entendres", "status": "unlikely", "note": "Cultural comedic subtext remains resistant to pure synthetic translation" },
+      { "name": "High-stakes literary translation and poetry adaptation", "status": "unlikely", "note": "Aesthetic voice and rhythmic nuance require creative human mastery" }
+    ],
+    "aiWillDo": [
+      "Real-time streaming translation for live news captions and sports commentary",
+      "Batch localization of e-commerce catalog listings into 12 Indic languages",
+      "Standard document translations between formal English and Hindi"
+    ],
+    "humansWillDo": [
+      "Nuanced post-editing and cultural sensibility audits for advertising",
+      "Translating colloquial slang, idioms, and state-specific political satire",
+      "Official certified court sworn translations requiring accredited human liability"
+    ],
+    "skillsToLearn": [
+      "Machine Translation Post-Editing (MTPE) workflows",
+      "Subtitling and dubbing adaptation for vernacular video platforms",
+      "Indic cultural linguistics and transcreation strategy",
+      "Corpus curation and evaluation for Indic AI training datasets"
+    ],
+    "toolsToLearn": ["Smartcat", "Trados Studio", "Bhashini API tools", "Whisper AI", "Aegisub"],
+    "saferCareers": [
+      { "title": "Investigative Journalist", "slug": "investigative-journalist" },
+      { "title": "Content Writer & Copywriter", "slug": "content-writer" }
+    ],
+    "indiaNote": "Project Bhashini and private Indic AI models have democratized multilingual web content. Freelancers charging per-word rates for standard English-Hindi translation have seen rates drop, while high-context 'transcreators' for OTT shows and political branding remain valued.",
+    "salaryRangeINR": "₹3.0 Lakh - ₹6.5 Lakh / year",
+    "hiringTrend": "Declining",
+    "faqs": [
+      { "q": "Can AI capture nuances of Indian languages like Hindi, Marathi, and Tamil?", "a": "Recent Indic LLMs handle grammar and conversational idioms reasonably well, but struggle with hyper-local dialect humour, caste nuances, and regional historical metaphors." },
+      { "q": "Is translation still a viable career in India?", "a": "Pure word-by-word translation is dead. However, 'Transcreation' (adapting global creative concepts into emotional Indian vernacular) and MTPE post-editing are growing rapidly." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "customer-support-executive",
+    "title": "Customer Support Executive (BPO)",
+    "sector": "bpo-customer-support",
+    "sectorName": "BPO & Customer Support",
+    "score": 88,
+    "label": "Very High",
+    "timeline": "2026-2029",
+    "confidence": "High",
+    "summary": "First-line customer support across voice and chat is experiencing aggressive task automation as conversational voice agents resolve order tracking, refund status, and billing queries with negligible latency.",
+    "tasks": [
+      { "name": "Answering order status and return inquiries", "status": "now", "note": "Handled natively by WhatsApp bots and conversational voice agents" },
+      { "name": "Password resets and account verification prompts", "status": "now", "note": "Automated self-service flows without human agent intervention" },
+      { "name": "Logging incident tickets and routing to backend teams", "status": "now", "note": "Natural language classifiers triage tickets with 90%+ accuracy" },
+      { "name": "Handling agitated customers demanding immediate compensation", "status": "5years", "note": "AI offers standard credits, but deep frustration requires human empathy" },
+      { "name": "Escalated fraud resolution and high-value VIP mediation", "status": "unlikely", "note": "Cross-departmental investigation and discretionary judgment remain human" }
+    ],
+    "aiWillDo": [
+      "Handle up to 75% of routine tier-1 inquiries across voice, email, and chat",
+      "Transcribe and summarize customer calls into CRM records in real time",
+      "Translate cross-lingual inquiries instantly without regional language desks"
+    ],
+    "humansWillDo": [
+      "De-escalate furious or distressed customers with genuine empathy and patience",
+      "Make discretionary policy exceptions for edge cases and vulnerable clients",
+      "Supervise AI agent outputs, monitor hallucinated claims, and refine prompts"
+    ],
+    "skillsToLearn": [
+      "Conversational AI workflow design and escalation routing",
+      "Customer success management (CSM) for enterprise SaaS accounts",
+      "Conflict de-escalation and advanced emotional intelligence",
+      "Data analysis in CRM tools (Salesforce, Zendesk)"
+    ],
+    "toolsToLearn": ["Zendesk AI", "Salesforce Service Cloud", "Freshdesk Freddy AI", "Intercom Fin", "Notion"],
+    "saferCareers": [
+      { "title": "Full-Stack Software Engineer", "slug": "full-stack-developer" },
+      { "title": "High School Science Teacher", "slug": "high-school-teacher" }
+    ],
+    "indiaNote": "India's massive voice BPO clusters in Gurugram, Bengaluru, and Pune are pivoting from headcount-driven billable models to managed tech services. Fresh graduate intake for pure voice scripts is slowing down by 25-35%.",
+    "salaryRangeINR": "₹2.4 Lakh - ₹4.5 Lakh / year",
+    "hiringTrend": "Declining",
+    "faqs": [
+      { "q": "Will Indian call centers shut down because of AI?", "a": "Not entirely, but their business model is radically restructuring. Instead of 5,000 agents reading basic scripts, companies will employ 1,000 specialized agents handling complex escalations and overseeing AI agents." },
+      { "q": "How can a BPO agent future-proof their income?", "a": "Move into customer success management (B2B SaaS), prompt quality auditing, or enterprise technical support where human relationship trust is paramount." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "content-writer",
+    "title": "Content Writer & Copywriter",
+    "sector": "media-content",
+    "sectorName": "Media & Content",
+    "score": 86,
+    "label": "Very High",
+    "timeline": "2025-2028",
+    "confidence": "High",
+    "summary": "Generic SEO articles, product catalog descriptions, standard email newsletters, and listicles are effortlessly created by modern LLMs, driving down rates for generic written content.",
+    "tasks": [
+      { "name": "Writing 800-word keyword-targeted SEO blog posts", "status": "now", "note": "LLMs produce drafts in seconds with integrated keyword density" },
+      { "name": "Drafting social media captions and promotional blurbs", "status": "now", "note": "Automated marketing suites generate multi-platform copy variants" },
+      { "name": "Writing e-commerce product features and bullet points", "status": "now", "note": "Catalog engines auto-generate descriptions directly from specs" },
+      { "name": "Conducting primary executive interviews and field research", "status": "unlikely", "note": "Unpublished industry insights and human rapport cannot be scraped" },
+      { "name": "Developing unique brand narrative and subversive creative campaigns", "status": "unlikely", "note": "Breakthrough creative taste and counter-intuitive angles require human instinct" }
+    ],
+    "aiWillDo": [
+      "Generate first-draft marketing copy, headline variations, and email sequences",
+      "Rephrase and repurpose podcasts or webinars into blog snippets and tweets",
+      "Proofread grammar, tone, readability, and vocabulary consistency"
+    ],
+    "humansWillDo": [
+      "Conduct in-person interviews and surface original, un-indexed primary data",
+      "Formulate strong opinionated viewpoints, industry polemics, and thought leadership",
+      "Understand subtle Indian pop-cultural shifts, memes, and festival sentiments"
+    ],
+    "skillsToLearn": [
+      "Investigative research methodology and direct sourcing",
+      "Brand strategy and creative storytelling frameworks",
+      "Content distribution strategy (Newsletter growth, LinkedIn thought leadership)",
+      "Editorial AI management and fact-checking protocols"
+    ],
+    "toolsToLearn": ["Substack", "Claude 3.7", "Notion AI", "Ahrefs / Semrush", "Figma"],
+    "saferCareers": [
+      { "title": "Investigative Journalist", "slug": "investigative-journalist" },
+      { "title": "Corporate L&D Trainer", "slug": "corporate-trainer" }
+    ],
+    "indiaNote": "Indian freelance content platforms (Upwork, Pepper Content, Fiverr) have experienced a severe drop in pay for basic per-word articles. Writers with subject-matter domain authority in tech, finance, or law who conduct original interviews continue to thrive.",
+    "salaryRangeINR": "₹3.2 Lakh - ₹7.0 Lakh / year",
+    "hiringTrend": "Transforming",
+    "faqs": [
+      { "q": "Are Indian content writing agencies firing writers?", "a": "Agencies are downsizing entry-level volume writers while retaining editors who can direct AI tools, verify factual accuracy, and add personality." },
+      { "q": "What type of writing is completely safe from AI?", "a": "Investigative reporting, memoir/personal essays, deep specialized analysis, and on-the-ground investigative reportage." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "telecaller-sales-agent",
+    "title": "Telecaller & Outbound Sales Agent",
+    "sector": "bpo-customer-support",
+    "sectorName": "BPO & Customer Support",
+    "score": 85,
+    "label": "Very High",
+    "timeline": "2026-2029",
+    "confidence": "High",
+    "summary": "Cold calling for personal loans, credit cards, real estate leads, and insurance renewals is shifting to ultra-low latency conversational voice agents that speak regional dialects and never tire.",
+    "tasks": [
+      { "name": "Calling cold lead lists with canned loan pitches", "status": "now", "note": "Voicebots handle millions of daily introductory qualifying dials" },
+      { "name": "Logging call dispositions and scheduled follow-ups", "status": "now", "note": "Dialer systems automatically record outcomes into CRM databases" },
+      { "name": "Basic objection handling on interest rates and terms", "status": "5years", "note": "Fine-tuned models answer standard comparison counter-arguments" },
+      { "name": "Building high-trust personal rapport for major insurance policies", "status": "unlikely", "note": "Complex family risk planning demands authentic personal bonding" },
+      { "name": "Closing high-ticket real estate and luxury purchases", "status": "unlikely", "note": "High monetary transactions require human presence and mutual negotiation" }
+    ],
+    "aiWillDo": [
+      "Perform high-volume initial lead filtering and eligibility verification",
+      "Converse in fluent Hinglish, Tamil, Telugu, and Marathi with natural cadence",
+      "Send immediate follow-up WhatsApp brochures while customer is on the line"
+    ],
+    "humansWillDo": [
+      "Step in when qualified leads express serious purchase intent for high-ticket items",
+      "Navigate nuanced family objections and unstated financial anxieties",
+      "Maintain personal relationship channels with long-term commercial clients"
+    ],
+    "skillsToLearn": [
+      "Consultative B2B enterprise sales and solution selling",
+      "CRM pipeline analytics and conversion rate optimization",
+      "High-value negotiation and contract structuring",
+      "AI dialer campaign design and conversion analytics"
+    ],
+    "toolsToLearn": ["HubSpot CRM", "LeadSquared", "Exotel / Knowlarity AI", "Apollo.io"],
+    "saferCareers": [
+      { "title": "Financial Planner & Wealth Advisor", "slug": "wealth-advisor" },
+      { "title": "Mobile Phone Sales Executive", "slug": "mobile-sales-executive" }
+    ],
+    "indiaNote": "Indian regulations around spam calls (TRAI DND) paired with AI conversational bots are squeezing traditional outbound call centers. Outbound telecalling jobs in BFSI and EdTech (BYJU'S era volume calls) have contracted sharply.",
+    "salaryRangeINR": "₹2.0 Lakh - ₹3.8 Lakh / year (plus incentives)",
+    "hiringTrend": "Declining",
+    "faqs": [
+      { "q": "Are voicebots currently used in India for sales?", "a": "Yes, major private banks, NBFCs, and fintech apps already use AI voice agents for EMI reminders, credit limit upgrade offers, and initial loan pre-qualification." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "software-qa-tester",
+    "title": "Software QA & Manual Tester",
+    "score": 84,
+    "sector": "it-software",
+    "sectorName": "IT & Software Services",
+    "label": "Very High",
+    "timeline": "2026-2029",
+    "confidence": "High",
+    "summary": "Manual test case execution, UI regression click-throughs, and basic bug reporting are being automated by autonomous test agents that write Playwright/Cypress scripts directly from user stories.",
+    "tasks": [
+      { "name": "Writing repetitive manual test cases from PRDs", "status": "now", "note": "AI analyzes requirements and outputs comprehensive test matrices" },
+      { "name": "Executing regression test suites across browsers", "status": "now", "note": "Autonomous browser agents crawl flows and flag visual breaks" },
+      { "name": "Filing Jira tickets with steps to reproduce", "status": "now", "note": "Test runners record video, console logs, and auto-draft bug tickets" },
+      { "name": "Designing complex chaos engineering & resiliency tests", "status": "5years", "note": "Needs human architecture awareness and distributed failure intuition" },
+      { "name": "Evaluating user experience ergonomics and emotional flow", "status": "unlikely", "note": "Subjective aesthetic friction requires authentic human empathy" }
+    ],
+    "aiWillDo": [
+      "Auto-generate test scripts (Selenium, Playwright, Cypress) on code commits",
+      "Run self-healing tests that adapt to changed UI button IDs and selectors",
+      "Generate synthetic test data and boundary edge cases automatically"
+    ],
+    "humansWillDo": [
+      "Define comprehensive security threat models and adversarial attacks",
+      "Evaluate domain-specific business logic errors that appear technically valid",
+      "Drive exploratory usability testing and human friction audits"
+    ],
+    "skillsToLearn": [
+      "Software Development Engineer in Test (SDET) coding in TypeScript or Python",
+      "Security testing and OWASP vulnerability assessments",
+      "CI/CD pipeline integration and performance benchmarking",
+      "AI model evaluation and prompt safety red-teaming"
+    ],
+    "toolsToLearn": ["Playwright", "Cypress", "Postman / Newman", "K6 load testing", "GitHub Actions"],
+    "saferCareers": [
+      { "title": "Cybersecurity & Penetration Tester", "slug": "cybersecurity-analyst" },
+      { "title": "Full-Stack Software Engineer", "slug": "full-stack-developer" }
+    ],
+    "indiaNote": "Indian IT service giants (TCS, Infosys, Wipro, Cognizant) previously had massive manual testing benches. Today, clients explicitly mandate automated test coverage in RFPs, accelerating layoffs and re-skilling programs for pure manual testers.",
+    "salaryRangeINR": "₹3.5 Lakh - ₹7.5 Lakh / year",
+    "hiringTrend": "Declining",
+    "faqs": [
+      { "q": "Can a manual tester survive without learning coding?", "a": "No. The era of manual point-and-click testing is concluding. Testers must upskill into SDET, performance engineering, or security verification." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "e-commerce-catalog-manager",
+    "title": "E-Commerce Catalog Manager",
+    "sector": "retail-ecommerce",
+    "sectorName": "Retail & E-Commerce",
+    "score": 83,
+    "label": "Very High",
+    "timeline": "2026-2029",
+    "confidence": "High",
+    "summary": "Product listing creation, background cleanup on catalog images, attribute tagging, and search taxonomy management are increasingly handled by vision-language models in automated pipelines.",
+    "tasks": [
+      { "name": "Removing backgrounds and resizing product photoshoot images", "status": "now", "note": "AI image editing handles batch background swaps in seconds" },
+      { "name": "Writing product titles, bullet points, and Amazon A+ descriptions", "status": "now", "note": "LLMs extract attributes and write optimized listings" },
+      { "name": "Tagging color, material, size attributes in seller portals", "status": "now", "note": "Multimodal models auto-tag product attributes from raw photos" },
+      { "name": "Competitor pricing tracking and price rule adjustments", "status": "now", "note": "Algorithmic repricers monitor market prices dynamically" },
+      { "name": "Direct supplier negotiations and exclusive product sourcing", "status": "unlikely", "note": "Vendor relationships and credit terms demand personal trust" }
+    ],
+    "aiWillDo": [
+      "Auto-generate high-conversion Amazon, Flipkart, and Meesho listings from raw factory photos",
+      "Translate catalog listings into Hindi, Tamil, Bengali, and Marathi automatically",
+      "Dynamically alter lifestyle background staging without physical photoshoots"
+    ],
+    "humansWillDo": [
+      "Negotiate margin splits and credit terms with wholesale manufacturers",
+      "Curate physical sample quality, fabric feel, and stitching durability",
+      "Formulate long-term category merchandising strategies"
+    ],
+    "skillsToLearn": [
+      "E-commerce performance marketing (Meta Ads, Amazon PPC)",
+      "Supply chain optimization and inventory forecasting",
+      "Brand positioning and DTC (Direct-to-Consumer) strategy",
+      "Generative AI asset pipelines for digital studios"
+    ],
+    "toolsToLearn": ["Shopify", "Amazon Seller Central", "Midjourney / FLUX", "Helium 10", "Excel / Power BI"],
+    "saferCareers": [
+      { "title": "Mobile Phone Sales Executive", "slug": "mobile-sales-executive" },
+      { "title": "Data Analyst & BI Developer", "slug": "data-analyst" }
+    ],
+    "indiaNote": "Indian e-commerce hubs in Surat, Tirupur, and Delhi NCR previously employed thousands of catalog executives for Flipkart and Meesho sellers. Sellers now use self-serve AI apps on their smartphones to create pro-grade catalog listings.",
+    "salaryRangeINR": "₹2.5 Lakh - ₹5.0 Lakh / year",
+    "hiringTrend": "Declining",
+    "faqs": [
+      { "q": "What should catalog operators do next?", "a": "Transition into growth marketing, paid ad optimization, or supplier relationship management where strategic decision-making drives direct business revenue." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "bank-clerk",
+    "title": "Bank Clerk (Public & Private Sector)",
+    "sector": "banking-finance",
+    "sectorName": "Banking & Finance",
+    "score": 82,
+    "label": "Very High",
+    "timeline": "2027-2031",
+    "confidence": "Medium",
+    "summary": "Front-desk bank counter tasks such as cash deposits, passbook printing, cheque clearing, and account opening have shifted to UPI, mobile banking apps, and self-service kiosks.",
+    "tasks": [
+      { "name": "Cash deposit and passbook updating", "status": "now", "note": "Handled by Cash Recycler Machines (CRMs) and mobile m-Passbooks" },
+      { "name": "Cheque truncation and signature verification", "status": "now", "note": "Computer vision cross-checks signatures and clears instruments automatically" },
+      { "name": "Processing KYC documents and address change requests", "status": "now", "note": "Replaced by Video-KYC and DigiLocker direct integrations" },
+      { "name": "Assisting senior citizens and rural patrons with branch queries", "status": "unlikely", "note": "Elderly and non-digitally literate citizens rely heavily on human counter warmth" },
+      { "name": "Dispute handling for erroneous UPI and fraudulent transfers", "status": "5years", "note": "Investigation and local police liaison require personal handling" }
+    ],
+    "aiWillDo": [
+      "Automate 90% of account service requests via mobile banking WhatsApp channels",
+      "Perform real-time biometric and document fraud checks without branch visits",
+      "Reconcile daily branch ledgers and cash balancing automatically"
+    ],
+    "humansWillDo": [
+      "Serve elderly, rural, and vulnerable customers who distrust digital interfaces",
+      "Investigate local fraudulent transactions requiring community knowledge",
+      "Cross-sell complex financial products like mutual funds and health insurance"
+    ],
+    "skillsToLearn": [
+      "Wealth management and mutual fund advisory (NISM certification)",
+      "MSME and retail loan evaluation and credit risk assessment",
+      "Customer relationship building and local community networking",
+      "Digital banking security protocols and cyber fraud mitigation"
+    ],
+    "toolsToLearn": ["Finacle (Core Banking)", "Tally Prime", "NISM Portals", "Tableau / Excel"],
+    "saferCareers": [
+      { "title": "Financial Planner & Wealth Advisor", "slug": "wealth-advisor" },
+      { "title": "Chartered Accountant", "slug": "chartered-accountant" }
+    ],
+    "indiaNote": "IBPS clerk exam vacancies in Public Sector Banks (SBI, PNB, Canara) have dropped noticeably over the last decade as digital UPI penetration surged. Counter clerical staff are increasingly reassigned as relationship executives for loan cross-selling.",
+    "salaryRangeINR": "₹3.5 Lakh - ₹6.5 Lakh / year",
+    "hiringTrend": "Declining",
+    "faqs": [
+      { "q": "Are PSU bank clerks at risk of being laid off?", "a": "Direct layoffs in PSU banks are rare due to labor protections, but new recruitment vacancies are shrinking every year, and current clerks are being redeployed into sales and recovery duties." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "logistics-dispatcher",
+    "title": "Logistics Dispatcher & Route Coordinator",
+    "sector": "transport-logistics",
+    "sectorName": "Transport & Logistics",
+    "score": 78,
+    "label": "High",
+    "timeline": "2027-2030",
+    "confidence": "High",
+    "summary": "Fleet dispatching, optimal multi-stop route sequencing, and delivery scheduling are performed far more efficiently by dynamic routing algorithms and telematics engines than human dispatchers.",
+    "tasks": [
+      { "name": "Assigning drivers to routes and parcel loads", "status": "now", "note": "Dispatch algorithms optimize load distribution in milliseconds" },
+      { "name": "Calculating shortest delivery routes with traffic adjustments", "status": "now", "note": "Real-time navigation engines outperform manual intuition" },
+      { "name": "Tracking truck locations via GPS telematics", "status": "now", "note": "Automated geofencing flags route deviations without manual checks" },
+      { "name": "Managing unexpected roadside vehicle breakdowns and accidents", "status": "unlikely", "note": "Coordinating local mechanics, crane operators, and police requires human hustle" },
+      { "name": "Negotiating freight spot rates with unionized truck owners", "status": "5years", "note": "Informal trucking negotiations in mandis depend on personal relationships" }
+    ],
+    "aiWillDo": [
+      "Dynamically reroute vehicles around sudden Indian monsoon traffic snarls",
+      "Predictively bundle partial-truck-load (PTL) shipments to maximize fuel efficiency",
+      "Auto-generate FASTag and e-way bill compliance verification records"
+    ],
+    "humansWillDo": [
+      "Manage on-ground crisis situations when trucks break down in remote highways",
+      "Maintain diplomatic relations with regional transporter unions and driver associations",
+      "Handle sensitive customer grievances for delayed high-value industrial freight"
+    ],
+    "skillsToLearn": [
+      "Supply chain telematics and transport management systems (TMS)",
+      "Warehouse management and inventory control (WMS)",
+      "Green logistics and EV fleet transition planning",
+      "Vendor contract negotiation and freight procurement"
+    ],
+    "toolsToLearn": ["FarEye", "Locus.sh", "SAP Transportation Management", "Power BI"],
+    "saferCareers": [
+      { "title": "Commercial Heavy Truck Driver", "slug": "truck-driver" },
+      { "title": "Data Analyst & BI Developer", "slug": "data-analyst" }
+    ],
+    "indiaNote": "Indian logistics startups (Delhivery, BlackBuck, Porter) rely almost entirely on proprietary algorithmic dispatchers. Traditional fleet operators are rapidly upgrading to avoid deadhead empty miles.",
+    "salaryRangeINR": "₹2.8 Lakh - ₹5.5 Lakh / year",
+    "hiringTrend": "Transforming",
+    "faqs": [
+      { "q": "Why is the dispatcher role transforming rather than dying?", "a": "Because someone still has to manage driver welfare, local police inspections on highways, and sudden mechanical breakdowns that code cannot solve." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "loan-officer",
+    "title": "Loan Officer & Credit Underwriter",
+    "sector": "banking-finance",
+    "sectorName": "Banking & Finance",
+    "score": 77,
+    "label": "High",
+    "timeline": "2027-2031",
+    "confidence": "High",
+    "summary": "Retail loan eligibility (home, personal, auto) is being largely automated through Account Aggregator APIs, GST return parsing, and predictive default scoring engines.",
+    "tasks": [
+      { "name": "Analyzing bank statements and salary slips", "status": "now", "note": "Automated engines extract turnover, bouncing, and EMI obligations in seconds" },
+      { "name": "Calculating debt-to-income and credit score ratios", "status": "now", "note": "Rule-based and ML credit scoring handle standard retail limits" },
+      { "name": "Cross-verifying tax returns against GST filings", "status": "now", "note": "Direct API cross-referencing eliminates manual ledger checking" },
+      { "name": "Field visits to verify physical business premises and stock", "status": "unlikely", "note": "Assessing cash-heavy informal Indian MSMEs requires on-site scrutiny" },
+      { "name": "Structuring complex debt restructurings for distressed enterprises", "status": "5years", "note": "Involves legal negotiations and commercial risk judgments" }
+    ],
+    "aiWillDo": [
+      "Approve instant pre-sanctioned loans under ₹10 Lakhs in under 5 minutes",
+      "Detect forged pay slips, altered PDF statements, and synthetic identity fraud",
+      "Continuously monitor borrower financial health via alternate digital footprints"
+    ],
+    "humansWillDo": [
+      "Conduct in-person field inspections for unorganized business owners without formal books",
+      "Assess character, community standing, and informal repayment capacity",
+      "Structure multi-bank consortium lending for major infrastructure projects"
+    ],
+    "skillsToLearn": [
+      "MSME cash-flow assessment and surrogate lending models",
+      "Insolvency and Bankruptcy Code (IBC) recovery processes",
+      "Machine learning model risk evaluation in fintech lending",
+      "Relationship lending and corporate banking advisory"
+    ],
+    "toolsToLearn": ["Perfios", "CIBIL / Experian Portals", "Finacle", "Advanced Excel"],
+    "saferCareers": [
+      { "title": "Chartered Accountant", "slug": "chartered-accountant" },
+      { "title": "Financial Planner & Wealth Advisor", "slug": "wealth-advisor" }
+    ],
+    "indiaNote": "Fintech lending apps in India have demonstrated that standard salaried personal loans require zero human credit underwriters. Human underwriters are shifting heavily to MSME lending and agricultural loans where informal cash economies prevail.",
+    "salaryRangeINR": "₹4.5 Lakh - ₹9.0 Lakh / year",
+    "hiringTrend": "Transforming",
+    "faqs": [
+      { "q": "Will credit underwriters still exist in India?", "a": "Yes, but for complex business loans. A shopkeeper with ₹50 Lakh cash revenue and minimal formal tax returns cannot be evaluated by algorithms without a human visiting the shop." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "junior-frontend-developer",
+    "title": "Junior Frontend Web Developer",
+    "sector": "it-software",
+    "sectorName": "IT & Software Services",
+    "score": 76,
+    "label": "High",
+    "timeline": "2026-2030",
+    "confidence": "High",
+    "summary": "Converting Figma designs into HTML/React components, writing boilerplate forms, and styling buttons are now instant tasks for modern coding models, raising the bar for junior engineering entry.",
+    "tasks": [
+      { "name": "Converting Figma screens into React/Tailwind code", "status": "now", "note": "AI tools generate clean, responsive CSS components directly from design tokens" },
+      { "name": "Writing standard form validation and input state handlers", "status": "now", "note": "Completed with automated AI scaffolding in IDEs" },
+      { "name": "Fixing simple CSS layout bugs and cross-browser quirks", "status": "now", "note": "Coding assistants diagnose and patch flex/grid issues accurately" },
+      { "name": "Optimizing web vitals, memory leaks, and DOM rendering pipelines", "status": "5years", "note": "Requires deep browser engine knowledge and profiling skills" },
+      { "name": "Architecting multi-tenant state machines and offline sync engines", "status": "unlikely", "note": "High-level architectural tradeoffs require experienced engineering judgment" }
+    ],
+    "aiWillDo": [
+      "Generate pixel-perfect UI components and prototypes from screenshots or wireframes",
+      "Write standard unit tests and mock data fixtures for frontend components",
+      "Refactor legacy codebase libraries (e.g. migrating class components to modern hooks)"
+    ],
+    "humansWillDo": [
+      "Architect complex client-server data synchronization and offline resilience",
+      "Audit deep accessibility (WCAG), keyboard navigation, and screen reader ergonomics",
+      "Collaborate with product designers on intuitive, emotionally resonant user journeys"
+    ],
+    "skillsToLearn": [
+      "Full-stack architecture: Node.js/Go backend integration and database design",
+      "Performance engineering: Web Vitals, bundle splitting, memory optimization",
+      "AI SDK integrations: Client-side streaming, local embeddings, WebGPU",
+      "System design and distributed caching patterns"
+    ],
+    "toolsToLearn": ["Next.js", "TypeScript", "Tailwind CSS", "GitHub Copilot / Cursor", "Docker"],
+    "saferCareers": [
+      { "title": "Full-Stack Software Engineer", "slug": "full-stack-developer" },
+      { "title": "Cloud Solutions Architect", "slug": "cloud-architect" }
+    ],
+    "indiaNote": "Indian coding bootcamps that promised 3-month transitions from zero to React developers for fresh graduates are struggling. Companies that used to hire 50 junior frontend devs now hire 10 full-stack engineers armed with AI tools.",
+    "salaryRangeINR": "₹3.8 Lakh - ₹8.0 Lakh / year",
+    "hiringTrend": "Declining",
+    "faqs": [
+      { "q": "Is frontend development dead?", "a": "No, but 'Junior Slice-and-Dice' CSS coding is dead. Frontend engineers must become full-stack product engineers who understand databases, APIs, performance, and user psychology." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "factory-quality-inspector",
+    "title": "Factory Quality Inspector",
+    "sector": "manufacturing",
+    "sectorName": "Manufacturing & Assembly",
+    "score": 75,
+    "label": "High",
+    "timeline": "2027-2032",
+    "confidence": "Medium",
+    "summary": "Manual visual inspection on automotive, pharmaceutical, and electronic assembly lines is rapidly being superseded by high-speed computer vision systems that detect sub-millimeter defects.",
+    "tasks": [
+      { "name": "Checking automotive parts for surface scratches and paint flaws", "status": "now", "note": "High-resolution camera arrays inspect surfaces at line speed" },
+      { "name": "Verifying tablet blister packaging and lot code prints", "status": "now", "note": "Computer vision inspects missing pills and smeared text in milliseconds" },
+      { "name": "Measuring dimensional tolerances with digital calipers", "status": "now", "note": "Automated laser scanning coordinates measure 3D geometries instantly" },
+      { "name": "Investigating root causes of recurring metallurgical stress fractures", "status": "5years", "note": "Requires deep materials science intuition and cross-functional inquiry" },
+      { "name": "Inspecting artisanal, handcrafted, or customized batch fabrications", "status": "unlikely", "note": "Unstandardized items resist rigid automated inspection cameras" }
+    ],
+    "aiWillDo": [
+      "Inspect 500+ items per minute with zero visual fatigue or human lapse",
+      "Classify defects into micro-categories and trigger automated rejection chutes",
+      "Correlate defect spikes with machine temperature and supplier material batches"
+    ],
+    "humansWillDo": [
+      "Diagnose upstream equipment malfunctions that caused the defect cluster",
+      "Calibrate and train vision models on newly introduced part revisions",
+      "Audit regulatory quality records for drug safety and automobile compliance"
+    ],
+    "skillsToLearn": [
+      "Industrial computer vision camera calibration and lighting optics",
+      "Six Sigma statistical process control and Root Cause Analysis (RCA)",
+      "Non-Destructive Testing (NDT) methodologies",
+      "Predictive maintenance data analysis"
+    ],
+    "toolsToLearn": ["Cognex In-Sight", "Keyence Vision Systems", "Minitab", "PLC Basics"],
+    "saferCareers": [
+      { "title": "CNC Machine Operator & Machinist", "slug": "cnc-operator" },
+      { "title": "Data Analyst & BI Developer", "slug": "data-analyst" }
+    ],
+    "indiaNote": "In major industrial corridors (Sriperumbudur, Sanand, Chakan), Tier-1 automotive and electronics suppliers have adopted automated optical inspection (AOI) to meet strict export standards for Apple, Tesla, and Toyota supply chains.",
+    "salaryRangeINR": "₹2.4 Lakh - ₹4.8 Lakh / year",
+    "hiringTrend": "Declining",
+    "faqs": [
+      { "q": "Are small Indian MSME factories also using automated inspection?", "a": "Adoption is slower in small workshops due to capital expenditure, but modular turnkey vision cameras from local Indian startups are reducing costs rapidly." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "graphic-designer",
+    "title": "Graphic Designer (Social Media & Ads)",
+    "sector": "media-content",
+    "sectorName": "Media & Content",
+    "score": 74,
+    "label": "High",
+    "timeline": "2025-2029",
+    "confidence": "High",
+    "summary": "Routine social media creative banners, e-commerce sale flyers, and festival greeting posts are being created directly via generative design tools (Canva Magic Studio, Midjourney, Adobe Firefly).",
+    "tasks": [
+      { "name": "Creating standard festive greeting banners (Diwali, Eid, etc.)", "status": "now", "note": "Templates and generative tools produce ready-to-publish creatives in minutes" },
+      { "name": "Resizing and formatting creatives across 8 different ad aspect ratios", "status": "now", "note": "Auto-layout engines reframe graphics seamlessly" },
+      { "name": "Generating background assets and stock photo replacements", "status": "now", "note": "Text-to-image models render contextual backgrounds on demand" },
+      { "name": "Developing overarching brand identity guidelines and visual tone", "status": "5years", "note": "Requires deep brand positioning and cultural empathy" },
+      { "name": "Designing complex physical packaging ergonomics and shelf presence", "status": "unlikely", "note": "Tactile materials, foil printing, and unboxing psychology need human design craft" }
+    ],
+    "aiWillDo": [
+      "Generate 50 variants of an Instagram ad test in seconds",
+      "Remove objects, extend backgrounds, and upscale low-res assets cleanly",
+      "Generate consistent brand-themed vector icons and illustrations"
+    ],
+    "humansWillDo": [
+      "Craft distinct brand narratives that stand out against generic AI aesthetics",
+      "Direct creative photoshoots and choose genuine human models and stylists",
+      "Master physical print production, paper textures, and specialized packaging finishes"
+    ],
+    "skillsToLearn": [
+      "Art direction and conceptual creative strategy",
+      "3D design, motion graphics, and interactive web animation",
+      "Physical packaging design and sustainable materials",
+      "Generative image workflow orchestration (ComfyUI, ControlNet)"
+    ],
+    "toolsToLearn": ["Figma", "Adobe Illustrator / Photoshop", "Blender 3D", "After Effects", "ComfyUI"],
+    "saferCareers": [
+      { "title": "Investigative Journalist", "slug": "investigative-journalist" },
+      { "title": "Junior Frontend Web Developer", "slug": "junior-frontend-developer" }
+    ],
+    "indiaNote": "Indian digital agencies that previously billed clients for creating 30 monthly social media posts are facing severe margin compression. Brands now demand full motion graphics, video, and strategic campaign conceptualization.",
+    "salaryRangeINR": "₹2.8 Lakh - ₹6.5 Lakh / year",
+    "hiringTrend": "Transforming",
+    "faqs": [
+      { "q": "Can AI replace graphic designers entirely?", "a": "It replaces asset assemblers and template churners. It empowers designers with strong conceptual taste, typography skills, and motion expertise to work 10x faster." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "technical-support-specialist",
+    "title": "Technical Support Specialist (L1/L2)",
+    "sector": "bpo-customer-support",
+    "sectorName": "BPO & Customer Support",
+    "score": 72,
+    "label": "High",
+    "timeline": "2026-2030",
+    "confidence": "High",
+    "summary": "Internal IT helpdesks, VPN setups, software license assignment, and basic server diagnostics are becoming self-resolving through AI IT service management (ITSM) bots.",
+    "tasks": [
+      { "name": "Resetting enterprise passwords and MFA tokens", "status": "now", "note": "Automated self-service slackbots resolve identity requests safely" },
+      { "name": "Diagnosing common printer and network connectivity errors", "status": "now", "note": "Diagnostic bots guide employees through step-by-step resolution" },
+      { "name": "Provisioning software access and license seating", "status": "now", "note": "Approved via automated HR workflow integrations" },
+      { "name": "Troubleshooting complex network latency and routing bottlenecks", "status": "5years", "note": "Requires deep understanding of physical switches, DNS, and VPC firewalls" },
+      { "name": "Physical hardware replacements (motherboards, RAM, cables)", "status": "unlikely", "note": "Physical hands-on repair cannot be done by software models" }
+    ],
+    "aiWillDo": [
+      "Automatically triage and resolve 60% of internal employee IT support tickets",
+      "Summarize server system log outputs and recommend standard command fixes",
+      "Generate internal knowledge-base documentation from resolved incident chats"
+    ],
+    "humansWillDo": [
+      "Physically repair and rack server blades and workstation hardware",
+      "Manage on-site office network failures during physical fiber cuts",
+      "Conduct in-person executive concierge support for top leadership"
+    ],
+    "skillsToLearn": [
+      "Cloud infrastructure administration (AWS, Azure, GCP)",
+      "Site Reliability Engineering (SRE) and observability tooling",
+      "Identity and Access Management (IAM) and zero-trust security",
+      "Automated infrastructure as code (Terraform, Ansible)"
+    ],
+    "toolsToLearn": ["Jira Service Management", "ServiceNow", "AWS Console", "Terraform", "Linux Bash"],
+    "saferCareers": [
+      { "title": "Cybersecurity & Penetration Tester", "slug": "cybersecurity-analyst" },
+      { "title": "Cloud Solutions Architect", "slug": "cloud-architect" }
+    ],
+    "indiaNote": "Indian Global Capability Centers (GCCs) in Bengaluru and Hyderabad are consolidating internal IT support teams, requiring support technicians to possess cloud engineering and DevOps skills.",
+    "salaryRangeINR": "₹3.5 Lakh - ₹7.0 Lakh / year",
+    "hiringTrend": "Declining",
+    "faqs": [
+      { "q": "What is the best path out of L1 tech support?", "a": "Specialize in cloud operations (AWS/Azure certifications) or cybersecurity analyst tracks where demand heavily outstrips talent." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "legal-associate",
+    "title": "Legal Associate / Contract Reviewer",
+    "sector": "legal-compliance",
+    "sectorName": "Legal & Compliance",
+    "score": 71,
+    "label": "High",
+    "timeline": "2027-2031",
+    "confidence": "Medium",
+    "summary": "Due diligence, standard NDA and vendor contract drafting, lease review, and Indian case law precedent discovery are being accelerated by legal AI models trained on judicial databases.",
+    "tasks": [
+      { "name": "Reviewing 100-page commercial vendor agreements for standard clauses", "status": "now", "note": "Legal LLMs flag non-standard indemnity and liability clauses in seconds" },
+      { "name": "Searching Supreme Court and High Court precedents on SCC Online", "status": "now", "note": "Semantic search discovers relevant citations far faster than keyword queries" },
+      { "name": "Drafting routine NDAs, lease deeds, and board resolutions", "status": "now", "note": "Templated contracts are generated automatically based on basic deal parameters" },
+      { "name": "Formulating high-stakes litigation case strategy and courtroom arguments", "status": "unlikely", "note": "Reading the judicial bench's demeanor and cross-examining witnesses is uniquely human" },
+      { "name": "Negotiating contentious merger warranties between opposing corporate boards", "status": "unlikely", "note": "High-stakes commercial bargaining hinges on human psychology and compromise" }
+    ],
+    "aiWillDo": [
+      "Extract indemnity, arbitration, and termination clauses across thousands of M&A files",
+      "Draft customized first-cut commercial contracts tailored to Indian jurisdiction",
+      "Summarize hundreds of pages of case judgments into concise legal briefs"
+    ],
+    "humansWillDo": [
+      "Argue before judicial benches and respond dynamically to judges' spontaneous questions",
+      "Counsel distressed corporate and individual clients through emotional legal crises",
+      "Formulate innovative legal doctrines when existing case law is silent or contradictory"
+    ],
+    "skillsToLearn": [
+      "Commercial contract negotiation and tactical deal-making",
+      "Legal prompt engineering and AI tool audit protocols",
+      "Specialized regulatory advisory (SEBI, CCI antitrust, Digital Personal Data Protection Act)",
+      "Courtroom advocacy and witness examination techniques"
+    ],
+    "toolsToLearn": ["Harvey AI", "Robin AI", "SCC Online", "Manupatra", "LexisNexis"],
+    "saferCareers": [
+      { "title": "Litigation Advocate (Courtroom)", "slug": "courtroom-litigator" },
+      { "title": "Chartered Accountant", "slug": "chartered-accountant" }
+    ],
+    "indiaNote": "Tier-1 Indian corporate law firms (Cyril Amarchand, Shardul Amarchand, Khaitan) are licensing legal AI platforms to cut down junior associate billable hours on due diligence, pushing junior lawyers to develop advisory skills earlier.",
+    "salaryRangeINR": "₹6.0 Lakh - ₹18.0 Lakh / year",
+    "hiringTrend": "Transforming",
+    "faqs": [
+      { "q": "Will Indian courts accept AI legal research?", "a": "The Supreme Court of India already uses AI for live transcription, but judges sternly penalize lawyers citing hallucinated AI cases. Human verification is strictly mandatory." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "data-analyst",
+    "title": "Data Analyst & BI Developer",
+    "sector": "it-software",
+    "sectorName": "IT & Software Services",
+    "score": 70,
+    "label": "High",
+    "timeline": "2026-2030",
+    "confidence": "High",
+    "summary": "Writing routine SQL aggregations, creating standard Power BI/Tableau charts, and generating weekly management summaries are being integrated into natural-language AI analytics interfaces.",
+    "tasks": [
+      { "name": "Writing SQL queries for basic joins, aggregations, and cohort views", "status": "now", "note": "Natural language to SQL tools generate accurate queries for clean schemas" },
+      { "name": "Building standard sales and performance dashboard charts", "status": "now", "note": "BI platforms automatically suggest and render appropriate visual charts" },
+      { "name": "Summarizing weekly KPI fluctuations in executive email reports", "status": "now", "note": "Automated narrative generators highlight weekly drops and spikes" },
+      { "name": "Diagnosing multi-variable root causes in conflicting business data", "status": "5years", "note": "Requires deep domain commercial acumen and cross-departmental interviews" },
+      { "name": "Designing underlying enterprise data models and governance frameworks", "status": "unlikely", "note": "Balancing business tradeoffs and data ownership requires human consensus" }
+    ],
+    "aiWillDo": [
+      "Allow business executives to ask ad-hoc questions in plain English ('Show me top churned users in Pune')",
+      "Automate data cleaning, null handling, and type normalization scripts",
+      "Detect statistical anomalies and metric drift across millions of daily transactions"
+    ],
+    "humansWillDo": [
+      "Translate ambiguous leadership business goals into rigorous analytical hypotheses",
+      "Ensure data provenance, business logic integrity, and privacy compliance",
+      "Influence executive strategy with compelling persuasive storytelling and commercial context"
+    ],
+    "skillsToLearn": [
+      "Advanced business domain acumen (Fintech metrics, SaaS economics, Retail supply chain)",
+      "Statistical causal inference and A/B test experimentation design",
+      "Data engineering fundamentals (dbt, Snowflake, Databricks)",
+      "Strategic executive storytelling and stakeholder alignment"
+    ],
+    "toolsToLearn": ["dbt", "Snowflake", "Python (Statsmodels)", "Power BI / Tableau", "DuckDB"],
+    "saferCareers": [
+      { "title": "Cybersecurity & Penetration Tester", "slug": "cybersecurity-analyst" },
+      { "title": "Cloud Solutions Architect", "slug": "cloud-architect" }
+    ],
+    "indiaNote": "Indian analytics service vendors are moving away from billing for simple dashboard maintenance. Analysts who can bridge the gap between business P&L decisions and data infrastructure earn top premiums.",
+    "salaryRangeINR": "₹4.5 Lakh - ₹12.0 Lakh / year",
+    "hiringTrend": "Transforming",
+    "faqs": [
+      { "q": "Will Power BI and Tableau developers lose their jobs?", "a": "Those who only drag-and-drop charts will face tough times. Those who understand business economics and build reliable data pipelines will remain critical." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "video-editor",
+    "title": "Video Editor & Post-Production Assistant",
+    "sector": "media-content",
+    "sectorName": "Media & Content",
+    "score": 68,
+    "label": "High",
+    "timeline": "2026-2030",
+    "confidence": "Medium",
+    "summary": "Rough cuts, silence removal, multi-camera angle switching, automated color matching, and subtitling are automated by AI editing suites, reducing demand for entry-level assistant editors.",
+    "tasks": [
+      { "name": "Removing awkward silences and 'ums' from podcast recordings", "status": "now", "note": "Text-based editing tools cut dead air and filler words automatically" },
+      { "name": "Generating auto-captions and animated dynamic subtitle reels", "status": "now", "note": "CapCut and Premiere AI auto-generate styled viral captions" },
+      { "name": "Basic B-roll asset selection and timeline insertion", "status": "now", "note": "AI tools match voiceover keywords to relevant stock footage automatically" },
+      { "name": "Emotional narrative pacing, comedic comedic timing, and dramatic pauses", "status": "unlikely", "note": "Artistic story rhythm and emotional empathy remain inherently human" },
+      { "name": "High-end cinematic color grading and bespoke sound design", "status": "5years", "note": "Nuanced atmospheric moods demand human creative vision" }
+    ],
+    "aiWillDo": [
+      "Auto-reframe 16:9 YouTube videos into 9:16 vertical reels with active speaker tracking",
+      "Clean up background hum, room echo, and voice quality with one click",
+      "Generate synthetic voiceover pickups to fix misspoken lines without reshooting"
+    ],
+    "humansWillDo": [
+      "Pace documentary narratives for maximum emotional and narrative resonance",
+      "Direct creative visual identity and signature cinematic editing styles",
+      "Handle high-pressure live broadcast editing during unpredictable events (IPL, news)"
+    ],
+    "skillsToLearn": [
+      "Narrative storytelling and script structure",
+      "High-end motion graphics and 3D visual effects in Blender/Unreal Engine",
+      "Professional audio mixing and Foley sound design",
+      "Generative video workflows (Runway Gen-3, Luma Dream Machine, Sora)"
+    ],
+    "toolsToLearn": ["DaVinci Resolve", "Adobe Premiere Pro", "After Effects", "Blender", "Runway AI"],
+    "saferCareers": [
+      { "title": "Investigative Journalist", "slug": "investigative-journalist" },
+      { "title": "Corporate L&D Trainer", "slug": "corporate-trainer" }
+    ],
+    "indiaNote": "India's booming YouTube creator economy and Bollywood post-production houses in Mumbai and Hyderabad heavily utilize AI tools. Assistant editors who only cut reels face price competition, while senior narrative storytellers remain in high demand.",
+    "salaryRangeINR": "₹3.0 Lakh - ₹8.0 Lakh / year",
+    "hiringTrend": "Transforming",
+    "faqs": [
+      { "q": "Can AI create entire videos from scratch?", "a": "Short generative clips exist, but maintaining character consistency, realistic physics, and compelling emotional stories across long-form video still requires skilled human directors and editors." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "government-clerk",
+    "title": "Government Clerical Assistant (LDC / UDC)",
+    "sector": "banking-finance",
+    "sectorName": "Banking & Finance",
+    "score": 65,
+    "label": "High",
+    "timeline": "2028-2033",
+    "confidence": "Medium",
+    "summary": "Physical file dispatch, certificate issuance, and departmental registry work in state and central ministries are migrating to paperless e-Office systems and direct citizen service portals.",
+    "tasks": [
+      { "name": "Logging inward/outward postal file dispatches", "status": "now", "note": "e-Office workflow systems digitize movement and auto-stamp file tracking" },
+      { "name": "Issuing caste, domicile, and income certificates", "status": "now", "note": "Direct online citizen service portals verify records and issue signed PDFs" },
+      { "name": "Compiling monthly departmental pension and payroll vouchers", "status": "now", "note": "Integrated financial management portals handle calculations automatically" },
+      { "name": "Conducting on-ground citizen verification and census inquiries", "status": "unlikely", "note": "Physical verification in villages and informal settlements needs government staff" },
+      { "name": "Interpreting service rules and resolving civil servant pension disputes", "status": "5years", "note": "Subject to complex Central Civil Services (CCS) rules requiring administrative discretion" }
+    ],
+    "aiWillDo": [
+      "Auto-route citizen grievances on portals like CPGRAMS to the relevant nodal officer",
+      "Scan and summarize historical gazette notifications and administrative orders",
+      "Draft standard inter-departmental letters and RTI reply templates"
+    ],
+    "humansWillDo": [
+      "Conduct in-person field verifications for sensitive welfare distribution",
+      "Make discretionary humanitarian judgments during flood/drought disaster relief",
+      "Interact face-to-face with citizens navigating complex bureaucratic hurdles"
+    ],
+    "skillsToLearn": [
+      "e-Office management and digital governance systems",
+      "Data-driven public policy implementation and citizen feedback analytics",
+      "Public relations and transparent grievance resolution",
+      "Cybersecurity and data privacy guidelines for Indian government data"
+    ],
+    "toolsToLearn": ["e-Office NIC Portal", "CPGRAMS", "GeM (Government e-Marketplace)", "MS Excel"],
+    "saferCareers": [
+      { "title": "Primary School Educator", "slug": "primary-school-teacher" },
+      { "title": "High School Science Teacher", "slug": "high-school-teacher" }
+    ],
+    "indiaNote": "Indian government job security remains legally strong (permanent staff are rarely laid off). However, annual recruitment notifications via SSC CGL, State PSCs, and railway exams for entry-level clerical posts have contracted in volume as paperless offices expand.",
+    "salaryRangeINR": "₹3.6 Lakh - ₹6.8 Lakh / year (plus allowances)",
+    "hiringTrend": "Stable",
+    "faqs": [
+      { "q": "Will existing government clerks lose their jobs to AI?", "a": "No, Indian permanent civil servants have strong constitutional protections. However, their daily duties are transforming into digital system administration, and contractual clerical hiring is shrinking." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "mobile-sales-executive",
+    "title": "Mobile Phone Sales Executive (Retail)",
+    "sector": "retail-ecommerce",
+    "sectorName": "Retail & E-Commerce",
+    "score": 64,
+    "label": "High",
+    "timeline": "2028-2032",
+    "confidence": "Medium",
+    "summary": "Technical spec comparisons, EMI calculations, and warranty upsells are easily handled on shoppers' own smartphones, though in-store physical tactile demonstration and instant exchange discounts keep human sales alive.",
+    "tasks": [
+      { "name": "Explaining processor, camera megapixel, and battery specs to buyers", "status": "now", "note": "Shoppers compare specs on Smartprix and YouTube before visiting" },
+      { "name": "Calculating Bajaj Finserv / credit card EMI options", "status": "now", "note": "Self-service QR scanners generate personalized financing schedules on customer phones" },
+      { "name": "Applying screen guards and transferring WhatsApp data to new phones", "status": "unlikely", "note": "Tactile screen guard installation and physical SIM swaps require manual dexterity" },
+      { "name": "Convincing hesitant buyers through personalized deal sweeteners", "status": "unlikely", "note": "Negotiating free cases, earphone bundles, and instant exchange quotes is inherently human" },
+      { "name": "Processing trade-in phone diagnostic evaluations", "status": "5years", "note": "Automated diagnostic apps evaluate screen touch, battery health, and body dents" }
+    ],
+    "aiWillDo": [
+      "Power conversational kiosks and QR experiences with interactive 3D phone comparisons",
+      "Run automated credit scoring for zero-down-payment smartphone financing",
+      "Predict customer churn and push tailored upgrade offers to previous buyers"
+    ],
+    "humansWillDo": [
+      "Offer tactile phone demonstrations, grip ergonomics, and camera color perception checks",
+      "Help non-tech-savvy customers transfer photos, contacts, and banking apps safely",
+      "Negotiate spot price matches against Amazon and Flipkart sales"
+    ],
+    "skillsToLearn": [
+      "Omnichannel retail sales and customer relationship management",
+      "Hardware repair basics and smartphone screen replacement",
+      "Consumer consumer tech influencer marketing and local social media reels",
+      "Fintech POS systems and digital credit schemes"
+    ],
+    "toolsToLearn": ["Zoho POS", "Bajaj Finserv Partner Portal", "Cashify Diagnostic App", "Canva"],
+    "saferCareers": [
+      { "title": "Kirana Store Owner & Operator", "slug": "kirana-store-owner" },
+      { "title": "CNC Machine Operator & Machinist", "slug": "cnc-operator" }
+    ],
+    "indiaNote": "Over 70% of premium and mid-range phones in India are still sold through retail shops (Croma, Reliance Digital, and local multi-brand stores). While customer footfalls for simple spec-inquiries dropped, sales executives who build local trust and assist with old phone data migration remain indispensable.",
+    "salaryRangeINR": "₹2.2 Lakh - ₹4.5 Lakh / year (plus sales commission)",
+    "hiringTrend": "Stable",
+    "faqs": [
+      { "q": "Are retail mobile stores closing because of online shopping?", "a": "Quick-commerce (Blinkit/Zepto delivering phones in 10 mins) is increasing pressure, but stores offering instant old-phone exchange and hands-on demonstrations remain resilient." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "test-prep-faculty",
+    "title": "Test-Prep Coaching Faculty (JEE/NEET)",
+    "sector": "education",
+    "sectorName": "Education & Training",
+    "score": 62,
+    "label": "Moderate",
+    "timeline": "2028-2032",
+    "confidence": "Medium",
+    "summary": "Standard doubt resolution, formula explanations, and previous-year question (PYQ) solutions are answered on demand by multimodal AI tutors, reducing demand for junior doubt-clearing assistants in coaching hubs like Kota and Sikar.",
+    "tasks": [
+      { "name": "Solving standard Physics/Chemistry textbook numericals step-by-step", "status": "now", "note": "Multimodal vision models solve handwritten questions from photos with detailed steps" },
+      { "name": "Creating mock test papers and chapter-wise quiz questions", "status": "now", "note": "AI generates infinite customized question variations calibrated to JEE difficulty" },
+      { "name": "Analyzing individual student test weak-points and error logs", "status": "now", "note": "Adaptive algorithms map conceptual gaps far better than manual grading" },
+      { "name": "Mentoring anxious students facing intense exam pressure and self-doubt", "status": "unlikely", "note": "Compassionate human emotional encouragement cannot be replaced by algorithms" },
+      { "name": "Delivering electric, charismatic classroom lectures that spark deep passion", "status": "unlikely", "note": "Celebrity teachers command extraordinary student loyalty through humor and persona" }
+    ],
+    "aiWillDo": [
+      "Provide 24/7 personalized instant doubt clearing from camera snapshots of physics problems",
+      "Generate adaptive revision question banks tailored to individual student mistakes",
+      "Translate high-quality video lectures into regional Indian languages seamlessly"
+    ],
+    "humansWillDo": [
+      "Provide vital psychological mentorship to teenagers coping with competitive exam stress",
+      "Build inspiring classroom rapport through infectious energy and memorable life lessons",
+      "Teach counter-intuitive conceptual shortcuts and exam-hall time-management intuition"
+    ],
+    "skillsToLearn": [
+      "Hybrid flipped-classroom pedagogy and active inquiry design",
+      "Student mental health first-aid and emotional resilience mentoring",
+      "Educational content production and dynamic digital illustration",
+      "Curating adaptive AI learning tools for hybrid coaching batches"
+    ],
+    "toolsToLearn": ["Obsidian", "PhET Interactive Simulations", "Desmos", "Geogebra", "Loom"],
+    "saferCareers": [
+      { "title": "High School Science Teacher", "slug": "high-school-teacher" },
+      { "title": "Primary School Educator", "slug": "primary-school-teacher" }
+    ],
+    "indiaNote": "India's massive ₹30,000 crore coaching industry is bifurcating: junior 'doubt-clearing teachers' are being superseded by AI apps (like Doubtnut and PhysicsWallah AI bots), whereas star faculty who command personal charisma and trust earn multi-crore compensation packages.",
+    "salaryRangeINR": "₹6.0 Lakh - ₹25.0 Lakh / year (Star faculty much higher)",
+    "hiringTrend": "Transforming",
+    "faqs": [
+      { "q": "Can AI replace Kota coaching teachers?", "a": "It replaces routine doubt solvers and textbook solution manual writers. It cannot replace the disciplined hostel environment, peer pressure, and charismatic motivators who inspire students to study 14 hours a day." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "radiologist",
+    "title": "Radiologist & Imaging Specialist",
+    "sector": "healthcare",
+    "sectorName": "Healthcare & Medicine",
+    "score": 59,
+    "label": "Moderate",
+    "timeline": "2029-2034",
+    "confidence": "Medium",
+    "summary": "AI computer vision models match or exceed human radiologists in spotting chest X-ray nodules, mammogram micro-calcifications, and brain hemorrhage scans, shifting radiology toward comprehensive clinical synthesis.",
+    "tasks": [
+      { "name": "Screening chest X-rays for tuberculosis and pneumonia lesions", "status": "now", "note": "FDA and CDSCO-cleared AI tools detect lung infiltrates in under 10 seconds" },
+      { "name": "Measuring tumor volume changes across sequential CT scans", "status": "now", "note": "Automated 3D segmentation calculates volumetric changes accurately" },
+      { "name": "Drafting preliminary structured radiology reports", "status": "now", "note": "Speech-to-text combined with vision algorithms auto-drafts findings" },
+      { "name": "Synthesizing conflicting imaging findings with complex clinical patient history", "status": "unlikely", "note": "Correlating subtle imaging findings with bedside physical exams requires doctor's wisdom" },
+      { "name": "Performing CT-guided biopsies and interventional radiology procedures", "status": "unlikely", "note": "Delicate physical needle placement in living tissue requires steady human surgical hands" }
+    ],
+    "aiWillDo": [
+      "Prioritize critical scans (e.g. acute intracranial hemorrhage) in hospital triage queues",
+      "Highlight micro-calcifications and subtle fractures that tired human eyes might miss at 3 AM",
+      "Generate standard measurement tables for liver lesions and organ volumes"
+    ],
+    "humansWillDo": [
+      "Perform image-guided interventional procedures (biopsies, stent insertions, catheter drains)",
+      "Correlate imaging anomalies with patient's overall physical condition and unusual symptoms",
+      "Communicate distressing findings to treating oncologists and worried families with empathy"
+    ],
+    "skillsToLearn": [
+      "Interventional radiology and minimally invasive procedure techniques",
+      "Clinical AI algorithm validation, bias auditing, and false-positive triage",
+      "Integrated multi-omics and imaging correlation (Radiogenomics)",
+      "Multidisciplinary tumor board consultation and clinical leadership"
+    ],
+    "toolsToLearn": ["PACS workstations", "Qure.ai", "Aidoc", "Synapse 3D", "OsiriX MD"],
+    "saferCareers": [
+      { "title": "General Physician / MBBS Doctor", "slug": "general-physician" },
+      { "title": "Registered Staff Nurse", "slug": "staff-nurse" }
+    ],
+    "indiaNote": "India has fewer than 15,000 radiologists for 1.4 billion people. Indian healthtech pioneers (e.g. Qure.ai) deploy AI in rural district hospitals to triage TB scans. Far from causing unemployment, AI is preventing catastrophic diagnostic backlogs, though radiologist report pricing may face downward pressure.",
+    "salaryRangeINR": "₹18.0 Lakh - ₹45.0 Lakh / year",
+    "hiringTrend": "Stable",
+    "faqs": [
+      { "q": "Did Geoffrey Hinton's 2016 prediction that 'we should stop training radiologists' come true?", "a": "No, it proved fundamentally wrong. Radiologists are not obsolete; rather, radiologists using AI are outperforming radiologists who do not." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "full-stack-developer",
+    "title": "Full-Stack Software Engineer",
+    "sector": "it-software",
+    "sectorName": "IT & Software Services",
+    "score": 58,
+    "label": "Moderate",
+    "timeline": "2027-2032",
+    "confidence": "High",
+    "summary": "AI coding tools write standard CRUD endpoints, database migrations, and UI components in seconds. The role is evolving from manual typing of lines of code into systems architecture, security verification, and product ownership.",
+    "tasks": [
+      { "name": "Writing REST/GraphQL endpoints and database schema migrations", "status": "now", "note": "Cursor and Copilot generate boilerplate APIs and migrations accurately" },
+      { "name": "Writing unit tests and integration mocks", "status": "now", "note": "AI achieves 80%+ test coverage effortlessly from existing function signatures" },
+      { "name": "Designing high-scale distributed systems and database partitioning", "status": "5years", "note": "Requires deep understanding of CAP theorem, latency tradeoffs, and failure modes" },
+      { "name": "Aligning ambiguous business requirements with technical trade-offs", "status": "unlikely", "note": "Negotiating product feature scope with product managers and founders remains human" },
+      { "name": "Debugging obscure production race conditions and memory leaks", "status": "5years", "note": "Solving non-deterministic multi-threaded distributed concurrency bugs demands human intuition" }
+    ],
+    "aiWillDo": [
+      "Generate complete multi-file feature scaffolding from detailed PRDs and architecture schemas",
+      "Find and fix syntax errors, outdated package dependencies, and simple security flaws",
+      "Translate codebases across languages (e.g., migrating Java backend to Go or Rust)"
+    ],
+    "humansWillDo": [
+      "Decide technical architecture, data boundaries, and long-term scalability paths",
+      "Balance development velocity against tech debt and operational maintenance overhead",
+      "Audit third-party security vulnerabilities and protect customer privacy"
+    ],
+    "skillsToLearn": [
+      "Distributed systems design, event-driven architecture, and caching strategies",
+      "Security engineering, OAuth2, cryptographic signatures, and zero-trust principles",
+      "AI model orchestration: LangChain, LlamaIndex, vector indexing, fine-tuning",
+      "Product engineering: Understanding user behavior, conversion metrics, and business viability"
+    ],
+    "toolsToLearn": ["Cursor / Claude Code", "Docker / Kubernetes", "Go / Rust", "PostgreSQL", "Kafka"],
+    "saferCareers": [
+      { "title": "Cloud Solutions Architect", "slug": "cloud-architect" },
+      { "title": "Cybersecurity & Penetration Tester", "slug": "cybersecurity-analyst" }
+    ],
+    "indiaNote": "Indian software developers with strong problem-solving skills and product mindset are multiplying their output 3x using AI. Those who only wrote repetitive outsourcing boilerplate are seeing hiring slow down.",
+    "salaryRangeINR": "₹7.0 Lakh - ₹24.0 Lakh / year",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Will companies need fewer engineers in India?", "a": "According to Jevons Paradox, as software becomes cheaper and faster to produce, the total global demand for custom software, automation, and AI systems will explode, benefiting adaptable engineers." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "corporate-trainer",
+    "title": "Corporate Learning & Development Trainer",
+    "sector": "education",
+    "sectorName": "Education & Training",
+    "score": 55,
+    "label": "Moderate",
+    "timeline": "2027-2032",
+    "confidence": "Medium",
+    "summary": "Standard compliance slide-decks, new hire onboarding videos, and generic leadership theory modules are created effortlessly by AI avatars, pushing corporate trainers toward experiential coaching.",
+    "tasks": [
+      { "name": "Creating compliance training slide decks (POSH, InfoSec)", "status": "now", "note": "AI presentation tools generate compliant modules with quizzes instantly" },
+      { "name": "Recording video explainers for HR policies", "status": "now", "note": "Photorealistic AI avatars (HeyGen, Synthesia) record videos in 20 languages" },
+      { "name": "Facilitating interactive conflict resolution and executive coaching", "status": "unlikely", "note": "High-trust psychological safety and leadership coaching require human presence" },
+      { "name": "Designing experiential team-building simulations and live workshops", "status": "unlikely", "note": "Unscripted group dynamics and team vulnerability need human facilitation" },
+      { "name": "Assessing employee skill gaps and building company learning roadmaps", "status": "5years", "note": "AI skill mapping provides data, but culture alignment needs human discernment" }
+    ],
+    "aiWillDo": [
+      "Generate custom micro-learning modules based on individual employee skill gaps",
+      "Produce multilingual avatar training videos without studio equipment",
+      "Evaluate employee quiz answers and provide personalized remediation paths"
+    ],
+    "humansWillDo": [
+      "Facilitate sensitive executive leadership retreats and interpersonal mediation",
+      "Inspire cultural transformation and psychological safety within corporate teams",
+      "Design experiential simulation games and cross-functional collaboration labs"
+    ],
+    "skillsToLearn": [
+      "Executive coaching and ICF-accredited mentoring methodologies",
+      "Organizational psychology and change management frameworks",
+      "Facilitation of high-stakes corporate simulations and war-gaming",
+      "AI literacy training program design for enterprise workforces"
+    ],
+    "toolsToLearn": ["Miro / Mural", "Synthesia", "Notion", "Mentimeter", "Slack / Teams Bots"],
+    "saferCareers": [
+      { "title": "High School Science Teacher", "slug": "high-school-teacher" },
+      { "title": "Corporate L&D Trainer", "slug": "corporate-trainer" }
+    ],
+    "indiaNote": "Indian IT and enterprise service firms are spending aggressively to retrain their workforce on AI tools. Trainers who can conduct live, hands-on, high-engagement workshops are commanding handsome day rates.",
+    "salaryRangeINR": "₹6.0 Lakh - ₹16.0 Lakh / year",
+    "hiringTrend": "Transforming",
+    "faqs": [
+      { "q": "Are video training avatars replacing human trainers?", "a": "For passive one-way lectures, yes. But passive video lectures have notoriously low retention. The value has shifted to interactive, cohort-based experiential facilitation." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "chartered-accountant",
+    "title": "Chartered Accountant (Auditing & Tax)",
+    "sector": "banking-finance",
+    "sectorName": "Banking & Finance",
+    "score": 54,
+    "label": "Moderate",
+    "timeline": "2028-2033",
+    "confidence": "High",
+    "summary": "Ledger reconciliation, GST return calculation, and routine audit sampling are automated by AI accounting suites. The role is elevating into strategic tax restructuring, CFO advisory, and forensic audit.",
+    "tasks": [
+      { "name": "Reconciling bank accounts and matching GST GSTR-2B invoices", "status": "now", "note": "Automated matching engines flag discrepancies and ITC mismatches instantly" },
+      { "name": "Extracting trial balance anomalies and outlier transactions", "status": "now", "note": "AI audit bots screen 100% of transactions instead of random sample testing" },
+      { "name": "Drafting routine tax computations for individual and SME filers", "status": "now", "note": "Tax software calculates liabilities and populates ITR forms directly" },
+      { "name": "Structuring cross-border corporate mergers and transfer pricing", "status": "unlikely", "note": "International tax treaties and bilateral regulatory optimization require strategic intellect" },
+      { "name": "Representing clients before National Company Law Tribunal (NCLT) and ITAT", "status": "unlikely", "note": "Quasi-judicial oral hearings, tax dispute arguments, and negotiations are human domain" }
+    ],
+    "aiWillDo": [
+      "Automate 100% voucher verification and detect fabricated vendor invoices",
+      "Track changing tax circulars and CBDT/GST council notifications automatically",
+      "Generate first drafts of audit working papers and statutory balance sheet notes"
+    ],
+    "humansWillDo": [
+      "Provide strategic board-level advisory on capital allocation and M&A deals",
+      "Defend clients in contentious tax scrutiny proceedings and judicial appeals",
+      "Exercise ethical skepticism when management attempts financial window dressing"
+    ],
+    "skillsToLearn": [
+      "Forensic accounting and algorithmic fraud detection",
+      "International tax planning, BEPS 2.0, and transfer pricing regulations",
+      "ESG (Environmental, Social, Governance) sustainability audit standards",
+      "Virtual CFO advisory and financial modeling for venture-backed startups"
+    ],
+    "toolsToLearn": ["Tally Prime with AI APIs", "Zoho Books", "Alteryx", "Power BI", "Caseware"],
+    "saferCareers": [
+      { "title": "Financial Planner & Wealth Advisor", "slug": "wealth-advisor" },
+      { "title": "Litigation Advocate (Courtroom)", "slug": "courtroom-litigator" }
+    ],
+    "indiaNote": "The Institute of Chartered Accountants of India (ICAI) has actively integrated AI and data analytics into the CA curriculum. Article-assistants who once spent 3 months manually verifying vouchers now perform computer-assisted audit procedures in days.",
+    "salaryRangeINR": "₹9.0 Lakh - ₹26.0 Lakh / year",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Will AI sign audit reports in India?", "a": "Never under Indian law. Section 141 of the Companies Act requires certified human CAs to bear personal and criminal liability for statutory audits." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "retail-pharmacist",
+    "title": "Retail Pharmacist",
+    "sector": "healthcare",
+    "sectorName": "Healthcare & Medicine",
+    "score": 48,
+    "label": "Moderate",
+    "timeline": "2029-2034",
+    "confidence": "Medium",
+    "summary": "Prescription reading, drug-interaction checking, and inventory reordering are easily performed by software, but India's community pharmacies function as first-stop healthcare counselors in every neighborhood.",
+    "tasks": [
+      { "name": "Deciphering doctors' handwritten prescriptions", "status": "now", "note": "Vision models trained on medical handwriting decipher doctor notes with high accuracy" },
+      { "name": "Checking adverse drug-drug interactions and dosages", "status": "now", "note": "Pharmacy databases automatically flag contraindications and duplicate therapy" },
+      { "name": "Automated stock expiry tracking and supplier reordering", "status": "now", "note": "ERP software forecasts demand and manages expiry rotations automatically" },
+      { "name": "Providing trusted preliminary triage for minor ailments (fever, rash, stomach upset)", "status": "unlikely", "note": "Millions of Indians consult their trusted chemist before visiting a doctor" },
+      { "name": "Administering emergency first aid and blood pressure / glucose checks", "status": "unlikely", "note": "Hands-on diagnostic service and physical checkups require human presence" }
+    ],
+    "aiWillDo": [
+      "Instantly cross-check new prescriptions against patient medical history for deadly interactions",
+      "Automate pill packaging and inventory dispensing in centralized e-pharmacy warehouses",
+      "Translate dosage instructions into patient's native regional dialect"
+    ],
+    "humansWillDo": [
+      "Act as an accessible first-line healthcare advisor for local neighborhood families",
+      "Prevent prescription drug abuse and verify legitimate narcotic medicine sales",
+      "Demonstrate correct usage of medical devices (asthma inhalers, insulin pens)"
+    ],
+    "skillsToLearn": [
+      "Clinical pharmacology and medication therapy management (MTM)",
+      "Patient health coaching for chronic disease management (Diabetes, Hypertension)",
+      "Digital pharmacy inventory management and supply chain software",
+      "Diagnostic screening protocols and emergency first-aid certification"
+    ],
+    "toolsToLearn": ["Marg ERP", "PharmEasy POS", "Medscape / Lexicomp", "Tally ERP"],
+    "saferCareers": [
+      { "title": "General Physician / MBBS Doctor", "slug": "general-physician" },
+      { "title": "Registered Staff Nurse", "slug": "staff-nurse" }
+    ],
+    "indiaNote": "While e-pharmacies (Tata 1mg, Apollo 24/7) automated central warehouse distribution, India's 800,000+ local medical stores remain thriving neighborhood health touchpoints where instant human trust and credit are vital.",
+    "salaryRangeINR": "₹2.5 Lakh - ₹5.5 Lakh / year",
+    "hiringTrend": "Stable",
+    "faqs": [
+      { "q": "Can AI replace the local Indian chemist shop?", "a": "Not for emergency fever medicines at 10 PM, hands-on BP checks, or advice on how to administer syrups to stubborn children. Automated dispensing will hit central warehouses, not local chemists." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "cnc-operator",
+    "title": "CNC Machine Operator & Machinist",
+    "sector": "manufacturing",
+    "sectorName": "Manufacturing & Assembly",
+    "score": 42,
+    "label": "Moderate",
+    "timeline": "2030-2035",
+    "confidence": "Medium",
+    "summary": "G-code generation from CAD files is automated by AI CAM software, but physical tool setup, raw stock clamping, vibration listening, and chip clearance require skilled physical craft.",
+    "tasks": [
+      { "name": "Generating toolpath G-code and feeds/speeds from 3D CAD models", "status": "now", "note": "AI CAM modules calculate optimal toolpaths to minimize cutting time" },
+      { "name": "Predicting cutting tool wear and impending breakage", "status": "now", "note": "Vibration and acoustic sensors predict tool failure before it damages parts" },
+      { "name": "Physically loading raw billets, clamping vices, and zeroing origins", "status": "unlikely", "note": "Handling irregular metal blanks requires physical dexterity and tactile feel" },
+      { "name": "Inspecting surface finish by finger feel and micrometers", "status": "unlikely", "note": "Skilled machinists detect minute chattering and tool deflection instinctively" },
+      { "name": "Troubleshooting emergency machine alarms and chip bird-nest jams", "status": "unlikely", "note": "Clearing tangled metal shavings and broken coolant lines needs on-site human hands" }
+    ],
+    "aiWillDo": [
+      "Optimize cutting toolpaths automatically to extend carbide insert life by 30%",
+      "Alert operators before a high-speed spindle bearing overheats or fails",
+      "Simulate digital twin machining runs to prevent tool collision against machine beds"
+    ],
+    "humansWillDo": [
+      "Set up complex custom fixtures and align non-standard raw castings",
+      "Listen to cutting acoustics and adjust feed override dials in real time",
+      "Perform precision deburring, manual scraping, and dimensional hand-lapping"
+    ],
+    "skillsToLearn": [
+      "Multi-axis CNC programming (5-axis machining, mill-turn centers)",
+      "CAD/CAM modeling and digital twin tool simulation (Fusion 360, Mastercam)",
+      "Precision metrology using Coordinate Measuring Machines (CMM)",
+      "Preventive maintenance and CNC PLC diagnostics"
+    ],
+    "toolsToLearn": ["Mastercam", "Autodesk Fusion 360", "Siemens Sinumerik", "Fanuc Controls"],
+    "saferCareers": [
+      { "title": "Factory Quality Inspector", "slug": "factory-quality-inspector" },
+      { "title": "Kirana Store Owner & Operator", "slug": "kirana-store-owner" }
+    ],
+    "indiaNote": "India's MSME machining hubs in Coimbatore, Rajkot, and Ludhiana face an acute shortage of skilled multi-axis machinists. As global supply chains diversify toward India, skilled machinists who can program and operate advanced machines earn very respectable wages.",
+    "salaryRangeINR": "₹2.8 Lakh - ₹6.5 Lakh / year",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Will robots take over Indian machine shops?", "a": "High-volume automotive lines use robotic loaders, but 80% of Indian job shops produce small customized batches where robotic retooling is too costly. Machinists with programming skills are safe." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "wealth-advisor",
+    "title": "Financial Planner & Wealth Advisor",
+    "sector": "banking-finance",
+    "sectorName": "Banking & Finance",
+    "score": 39,
+    "label": "Low",
+    "timeline": "2030-2035",
+    "confidence": "High",
+    "summary": "Robo-advisors handle basic SIP index investing, but managing family emotional anxieties during market crashes, inheritance succession, and generational wealth distribution requires profound human empathy.",
+    "tasks": [
+      { "name": "Asset allocation modeling and index rebalancing", "status": "now", "note": "Automated algorithms balance stock-to-bond ratios based on risk profiles" },
+      { "name": "Generating annual portfolio performance report summaries", "status": "now", "note": "Portfolio trackers auto-generate PDF reports and tax statements" },
+      { "name": "Calming terrified investors during a 20% sudden stock market crash", "status": "unlikely", "note": "Emotional behavioral coaching during panic cannot be solved with an algorithm" },
+      { "name": "Navigating complex Indian joint family inheritance and estate disputes", "status": "unlikely", "note": "Untangling family expectations and generational property transfer needs human tact" },
+      { "name": "Holistic retirement lifestyle and healthcare contingency planning", "status": "5years", "note": "Aligning financial cash flows with deeply personal health and family aspirations" }
+    ],
+    "aiWillDo": [
+      "Continuously monitor tax-loss harvesting opportunities across portfolios",
+      "Run Monte Carlo retirement simulations under 10,000 economic scenarios",
+      "Draft personalized periodic market commentary letters tailored to client holdings"
+    ],
+    "humansWillDo": [
+      "Prevent clients from panic-selling their portfolios during market crashes",
+      "Facilitate delicate family wealth succession discussions between generations",
+      "Build decades-long fiduciary trust that clients entrust with their life savings"
+    ],
+    "skillsToLearn": [
+      "Behavioral finance and client emotional psychology management",
+      "Estate planning, family trusts, and succession law in India",
+      "Alternative investments (Private Equity, Venture Debt, Real Estate REITs)",
+      "Client communication and ethical fiduciary reputation building"
+    ],
+    "toolsToLearn": ["Bloomberg Terminal", "Morningstar Direct", "WealthDesk", "Excel Financial Modeling"],
+    "saferCareers": [
+      { "title": "Chartered Accountant", "slug": "chartered-accountant" },
+      { "title": "Loan Officer & Credit Underwriter", "slug": "loan-officer" }
+    ],
+    "indiaNote": "India's rapid wealth creation has produced over 300,000 high-net-worth families seeking personalized wealth offices in Mumbai, Delhi, and Bengaluru. While retail investors use Zerodha/Groww apps, high-net-worth individuals overwhelmingly rely on human wealth managers.",
+    "salaryRangeINR": "₹8.0 Lakh - ₹28.0 Lakh / year (plus AUM fees)",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Why won't robo-advisors replace human wealth managers?", "a": "Because finance is emotional, not just mathematical. When people's life savings drop 25% during a crisis, they don't want to chat with a bot; they want a trustworthy human voice reassuring them." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "high-school-teacher",
+    "title": "High School Science Teacher",
+    "sector": "education",
+    "sectorName": "Education & Training",
+    "score": 38,
+    "label": "Low",
+    "timeline": "2030-2035",
+    "confidence": "High",
+    "summary": "AI can explain photosynthesis and calculate projectile motion equations, but guiding adolescents through emotional development, moral ethics, hands-on laboratory experiments, and intellectual curiosity is human-centric.",
+    "tasks": [
+      { "name": "Grading routine homework and multiple-choice quizzes", "status": "now", "note": "Automated grading platforms assess student work and provide feedback" },
+      { "name": "Generating lesson plans and customized worksheet variants", "status": "now", "note": "AI drafts syllabus-aligned lesson plans tailored to CBSE/ICSE standards in seconds" },
+      { "name": "Managing laboratory chemistry apparatus and safety during flame experiments", "status": "unlikely", "note": "Physical safety oversight in school labs requires constant human vigilance" },
+      { "name": "Identifying a quiet student struggling with depression or domestic stress", "status": "unlikely", "note": "Subtle emotional behavioral changes can only be sensed by an observant human educator" },
+      { "name": "Fostering collaborative teamwork and scientific debate among teenagers", "status": "unlikely", "note": "Facilitating classroom discussions and critical inquiry requires human social leadership" }
+    ],
+    "aiWillDo": [
+      "Provide each student with personalized homework hints matched to their learning speed",
+      "Generate rich 3D visual models illustrating molecular orbitals or plate tectonics",
+      "Automate administrative attendance logging and report card remarks"
+    ],
+    "humansWillDo": [
+      "Inspire lifelong curiosity, ethical responsibility, and scientific skepticism",
+      "Provide a safe, encouraging classroom environment where adolescents feel valued",
+      "Supervise hands-on experimental laboratories and physical safety"
+    ],
+    "skillsToLearn": [
+      "Experiential, project-based STEM learning design",
+      "Adolescent psychology, emotional well-being, and anti-bullying leadership",
+      "Hybrid flipped-classroom facilitation using AI tools as assistants",
+      "Interactive scientific demonstrations and inquiry-based pedagogy"
+    ],
+    "toolsToLearn": ["Google Classroom", "PhET Simulations", "Canva for Education", "Kahoot!"],
+    "saferCareers": [
+      { "title": "Primary School Educator", "slug": "primary-school-teacher" },
+      { "title": "Corporate L&D Trainer", "slug": "corporate-trainer" }
+    ],
+    "indiaNote": "India's National Education Policy (NEP 2020) shifts the focus from rote learning toward experiential and critical thinking. Teachers who foster hands-on inquiry and emotional resilience are more valued than ever in reputable Indian schools.",
+    "salaryRangeINR": "₹3.8 Lakh - ₹9.5 Lakh / year",
+    "hiringTrend": "Stable",
+    "faqs": [
+      { "q": "Will AI tutors replace school teachers?", "a": "No. School is a vital social institution for human character development, not merely a content-delivery portal. AI will handle the grading and lesson prep, allowing teachers to focus on student mentorship." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "delivery-rider",
+    "title": "Last-Mile Delivery Rider (Quick Commerce)",
+    "sector": "transport-logistics",
+    "sectorName": "Transport & Logistics",
+    "score": 35,
+    "label": "Low",
+    "timeline": "2031-2037",
+    "confidence": "High",
+    "summary": "Navigating congested Indian lanes, climb-ups in non-elevator apartment blocks, intercom security gates, and cash-on-delivery handling make autonomous delivery robots non-viable in Indian urban centers for years to come.",
+    "tasks": [
+      { "name": "Determining fastest route and drop sequence", "status": "now", "note": "Platform algorithms dictate exact sequence and map guidance" },
+      { "name": "Navigating monsoon-flooded roads, potholes, and broken lanes", "status": "unlikely", "note": "Requires human riding balance, physical agility, and real-time obstacle avoidance" },
+      { "name": "Climbing 4 flights of stairs in older housing societies without lifts", "status": "unlikely", "note": "Wheeled autonomous delivery rovers cannot climb Indian residential staircases" },
+      { "name": "Coordinating with apartment security guards to gain gate entry", "status": "unlikely", "note": "Negotiating gate registers, building rules, and phone confirmations needs a human" },
+      { "name": "Handling cash-on-delivery change and verifying otp", "status": "unlikely", "note": "Customer physical interaction at the doorstep remains human" }
+    ],
+    "aiWillDo": [
+      "Optimize batch parcel stacking and delivery routes across riders in real time",
+      "Forecast neighborhood grocery demand to position inventory in nearest dark stores",
+      "Automate rider payouts and performance gamification metrics"
+    ],
+    "humansWillDo": [
+      "Physically navigate chaotic traffic, construction detours, and narrow Indian gullies",
+      "Climb multi-story staircases and deliver bags right to customer apartment doors",
+      "Inspect packaging integrity and resolve immediate customer doorstep concerns"
+    ],
+    "skillsToLearn": [
+      "Electric two-wheeler maintenance and battery management",
+      "Hub supervisory operations and dark-store inventory logistics",
+      "Customer communication and local area route mastery",
+      "Basic smartphone navigation tools and digital payment handling"
+    ],
+    "toolsToLearn": ["Swiggy / Zomato Delivery Apps", "Blinkit / Zepto Partner Portals", "Google Maps"],
+    "saferCareers": [
+      { "title": "Commercial Heavy Truck Driver", "slug": "truck-driver" },
+      { "title": "Kirana Store Owner & Operator", "slug": "kirana-store-owner" }
+    ],
+    "indiaNote": "India's quick commerce boom (Blinkit, Zepto, Instamart) has expanded delivery jobs to over 3 million workers. Autonomous sidewalk delivery rovers or drones cannot navigate crowded Indian pedestrian chaos and hanging overhead wires.",
+    "salaryRangeINR": "₹2.2 Lakh - ₹4.2 Lakh / year",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Will drones replace delivery riders in India?", "a": "Drone delivery may work for emergency medicines between rural hospitals, but delivering hot biryani or groceries to the 4th floor of an apartment in Mumbai or Delhi requires human hands." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "cloud-architect",
+    "title": "Cloud Solutions Architect",
+    "sector": "it-software",
+    "sectorName": "IT & Software Services",
+    "score": 34,
+    "label": "Low",
+    "timeline": "2031-2036",
+    "confidence": "High",
+    "summary": "While AI helps write infrastructure-as-code scripts, designing enterprise multi-region resilience, compliance with Indian data sovereignty rules, and cost-optimized distributed systems requires seasoned judgment.",
+    "tasks": [
+      { "name": "Drafting standard Terraform and CloudFormation scripts", "status": "now", "note": "AI models generate infrastructure code templates cleanly from architecture descriptions" },
+      { "name": "Analyzing monthly cloud billing anomalies and unattached disks", "status": "now", "note": "FinOps AI tools highlight idle EC2 instances and oversized volumes" },
+      { "name": "Designing disaster recovery architectures across geographic cloud regions", "status": "unlikely", "note": "Evaluating RPO/RTO tradeoffs, split-brain replication, and latency requires high-level wisdom" },
+      { "name": "Navigating RBI data localization and DPDP compliance mandates", "status": "unlikely", "note": "Synthesizing legal regulatory requirements with enterprise network topologies is human work" },
+      { "name": "Reconciling conflicting business constraints with legacy on-prem systems", "status": "unlikely", "note": "Enterprise cloud migrations face complex corporate politics and legacy debt" }
+    ],
+    "aiWillDo": [
+      "Auto-generate Terraform modules and Kubernetes manifest configurations",
+      "Detect cloud security configuration drift and open S3 buckets continuously",
+      "Simulate distributed network traffic loads and benchmark latency bottlenecks"
+    ],
+    "humansWillDo": [
+      "Make pivotal architectural decisions between multi-cloud, hybrid, and edge computing",
+      "Align enterprise IT infrastructure investments with 5-year business revenue models",
+      "Ensure airtight compliance with Indian data sovereignty and banking regulations"
+    ],
+    "skillsToLearn": [
+      "Multi-cloud architectures (AWS, Azure, GCP, OCI) and hybrid networking",
+      "FinOps cost optimization frameworks and unit economics",
+      "Zero-Trust cybersecurity and Indian DPDP regulatory compliance",
+      "AI cluster infrastructure design (GPU orchestration, high-bandwidth interconnects)"
+    ],
+    "toolsToLearn": ["Terraform", "Kubernetes", "AWS Solutions Architecture", "Datadog", "ArgoCD"],
+    "saferCareers": [
+      { "title": "Cybersecurity & Penetration Tester", "slug": "cybersecurity-analyst" },
+      { "title": "Full-Stack Software Engineer", "slug": "full-stack-developer" }
+    ],
+    "indiaNote": "India's rapid cloud adoption—driven by BFSI digital public infrastructure and Global Capability Centers—has created intense demand for senior architects who understand high-throughput, low-latency scale (e.g. handling UPI scale).",
+    "salaryRangeINR": "₹22.0 Lakh - ₹60.0 Lakh / year",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Can AI design a complete cloud architecture?", "a": "It can suggest standard reference diagrams, but cannot navigate real-world legacy software dependencies, enterprise budget constraints, and regulatory audits." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "truck-driver",
+    "title": "Commercial Heavy Truck Driver",
+    "sector": "transport-logistics",
+    "sectorName": "Transport & Logistics",
+    "score": 32,
+    "label": "Low",
+    "timeline": "2032-2038",
+    "confidence": "High",
+    "summary": "India's chaotic road conditions, sudden cattle crossings, unmarked roadworks, aggressive mixed traffic, and monsoon waterlogging pose enormous obstacles for autonomous driving software.",
+    "tasks": [
+      { "name": "Maintaining lane discipline on straight modern expressways", "status": "5years", "note": "Level 2/3 driver assistance can aid highway cruising on access-controlled expressways" },
+      { "name": "Navigating sudden cattle crossings, potholes, and broken shoulders", "status": "unlikely", "note": "Unstructured Indian road hazards fail standard Western self-driving computer vision" },
+      { "name": "Maneuvering 16-wheel trucks through narrow, crowded mandi entry lanes", "status": "unlikely", "note": "Precision low-speed maneuvering among pedestrians and carts requires human spatial mastery" },
+      { "name": "Conducting emergency roadside tire changes and mechanical fixes", "status": "unlikely", "note": "Truck breakdowns on deserted highways require physical human repairs" },
+      { "name": "Interacting with state border transport checkpoints and toll authorities", "status": "unlikely", "note": "On-ground transport inspections and paperwork require physical driver coordination" }
+    ],
+    "aiWillDo": [
+      "Provide driver fatigue alerts using in-cabin eye-tracking telematics cameras",
+      "Automate toll deductions via FASTag and verify e-way bill compliance instantly",
+      "Suggest fuel-efficient gear shifting speeds based on road elevation profiles"
+    ],
+    "humansWillDo": [
+      "Steer vehicles safely through unpredictable Indian highway traffic and monsoon storms",
+      "Perform physical emergency repairs, tire replacements, and cargo tarp strapping",
+      "Protect valuable industrial and agricultural freight against transit theft"
+    ],
+    "skillsToLearn": [
+      "Telematics and connected fleet safety technologies",
+      "Defensive driving and advanced highway navigation skills",
+      "Electric and LNG commercial truck operation fundamentals",
+      "Digital e-way bill handling and smartphone logistics apps"
+    ],
+    "toolsToLearn": ["FleetX / LocoNav Telematics", "FASTag Apps", "Google Maps / Mappls"],
+    "saferCareers": [
+      { "title": "Last-Mile Delivery Rider", "slug": "delivery-rider" },
+      { "title": "CNC Machine Operator & Machinist", "slug": "cnc-operator" }
+    ],
+    "indiaNote": "India suffers from an acute deficit of heavy vehicle commercial drivers (estimated shortage of 25-30%). Driver salaries and fleet incentives have steadily grown, and highway infrastructure expansion (Bharatmala project) has increased freight demand.",
+    "salaryRangeINR": "₹3.0 Lakh - ₹6.0 Lakh / year",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Will self-driving trucks work on Indian highways by 2030?", "a": "Virtually impossible for full Level 4/5 autonomy. While Western expressways have strict lane adherence, Indian highways feature tractors, pedestrians, stray cattle, and varied road surfaces." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "general-physician",
+    "title": "General Physician / MBBS Doctor",
+    "sector": "healthcare",
+    "sectorName": "Healthcare & Medicine",
+    "score": 24,
+    "label": "Low",
+    "timeline": "2032-2038",
+    "confidence": "High",
+    "summary": "AI tools excel at differential diagnosis suggestions and clinical paperwork, but clinical physical examination, patient rapport, holistic diagnosis, and compassionate bedside reassurance remain profoundly human.",
+    "tasks": [
+      { "name": "Cross-referencing rare symptoms with global medical literature", "status": "now", "note": "Clinical AI engines suggest obscure differential diagnoses in seconds" },
+      { "name": "Transcribing patient conversations into electronic health records (EHR)", "status": "now", "note": "Ambient clinical voice models draft structured clinical notes in real time" },
+      { "name": "Physical clinical examination: palpation, auscultation, reflex testing", "status": "unlikely", "note": "Touching an abdomen to detect peritoneal guarding or palpating lymph nodes requires human hands" },
+      { "name": "Breaking devastating diagnoses to patients and emotional families", "status": "unlikely", "note": "Empathy, eye contact, and emotional presence cannot be replicated by synthetic software" },
+      { "name": "Balancing treatment plans with patient financial poverty and lifestyle limits", "status": "unlikely", "note": "Adapting treatments to what an Indian family can realistically afford needs compassionate wisdom" }
+    ],
+    "aiWillDo": [
+      "Act as an ambient clinical scribe, reducing doctor computer screen time by 50%",
+      "Alert physicians to dangerous drug contraindications and abnormal lab trendlines",
+      "Summarize complex historical multi-year hospital records into a 1-page clinical overview"
+    ],
+    "humansWillDo": [
+      "Perform physical body exams that yield tactile clues not found in medical textbooks",
+      "Build deep lifelong trust that encourages patients to disclose sensitive personal habits",
+      "Tailor medical care pragmatically to Indian family economic realities and community beliefs"
+    ],
+    "skillsToLearn": [
+      "Clinical AI integration and diagnostic tool auditing",
+      "Patient-centered communication, active listening, and emotional empathy",
+      "Preventive lifestyle medicine and chronic disease reversal protocols",
+      "Point-of-care ultrasound (POCUS) and bedside diagnostic procedures"
+    ],
+    "toolsToLearn": ["UpToDate", "Qure.ai", "Ambient AI Scribe (Abridge/Nuance)", "Practo Pro"],
+    "saferCareers": [
+      { "title": "Radiologist & Imaging Specialist", "slug": "radiologist" },
+      { "title": "Registered Staff Nurse", "slug": "staff-nurse" }
+    ],
+    "indiaNote": "India has a severe shortfall of allopathic doctors in semi-urban and rural areas (approx. 0.7 per 1,000 against WHO benchmark of 1.0). AI will empower Indian doctors to see more patients with less paperwork, not replace them.",
+    "salaryRangeINR": "₹8.0 Lakh - ₹25.0 Lakh / year",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Will patients trust an AI doctor over a human doctor?", "a": "No. When facing serious illness or mortality, patients seek human warmth, mutual accountability, and a doctor they can look in the eye." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "kirana-store-owner",
+    "title": "Kirana Store Owner & Operator",
+    "sector": "retail-ecommerce",
+    "sectorName": "Retail & E-Commerce",
+    "score": 29,
+    "label": "Low",
+    "timeline": "2031-2037",
+    "confidence": "High",
+    "summary": "India's 12+ million neighborhood Kirana stores endure because of interest-free informal credit (khata), micro-pack sizes, instant doorstep delivery, and deep personal community relationships that algorithms cannot mimic.",
+    "tasks": [
+      { "name": "Tracking daily sales and credit balances in physical bahi-khata", "status": "now", "note": "Digital ledger apps (Khatabook, OkCredit) manage customer balances and reminders" },
+      { "name": "Inventory replenishment from wholesale distributors", "status": "now", "note": "B2B ordering apps (JioMart, Udaan) automate stock ordering directly" },
+      { "name": "Offering informal interest-free monthly credit to neighborhood families", "status": "unlikely", "note": "Assessing creditworthiness based on personal neighborly trust cannot be coded into algorithms" },
+      { "name": "Selling loose items in customized quantities (e.g. ₹10 of cumin, 2 loose eggs)", "status": "unlikely", "note": "Hyper-customized micro-quantities defy standardized corporate packaging" },
+      { "name": "Serving as neighborhood social hub, parcel drop-off, and community guardian", "status": "unlikely", "note": "Decades-long neighborhood social bonds provide tremendous defensive moat" }
+    ],
+    "aiWillDo": [
+      "Suggest optimal product placement and stock replenishment based on local festivities",
+      "Automate GST compliance and billing through modern smart POS registers",
+      "Enable conversational voice-based digital ledger logging in regional Indian languages"
+    ],
+    "humansWillDo": [
+      "Maintain personalized trust relationships with neighborhood families across generations",
+      "Provide flexible informal credit during unexpected family medical emergencies",
+      "Deliver emergency groceries within 5 minutes across the neighborhood lane"
+    ],
+    "skillsToLearn": [
+      "Digital payments (UPI, soundbox reconciliation) and POS inventory software",
+      "Omnichannel WhatsApp commerce and fast local delivery coordination",
+      "Visual merchandising and impulse purchase store layout optimization",
+      "B2B wholesale digital procurement for better margin capture"
+    ],
+    "toolsToLearn": ["Khatabook / OkCredit", "Paytm / PhonePe Business", "JioB2B / Udaan", "Vyapar App"],
+    "saferCareers": [
+      { "title": "Mobile Phone Sales Executive", "slug": "mobile-sales-executive" },
+      { "title": "Last-Mile Delivery Rider", "slug": "delivery-rider" }
+    ],
+    "indiaNote": "Despite the rise of quick-commerce (Zepto/Blinkit) and supermarket chains, Indian Kirana stores maintain over 80% market share in grocery retail. Kiranas that adopt digital payments and WhatsApp ordering are remarkably resilient.",
+    "salaryRangeINR": "₹3.5 Lakh - ₹12.0 Lakh / year (Profit depending on location)",
+    "hiringTrend": "Stable",
+    "faqs": [
+      { "q": "Will Quick Commerce kill Indian Kirana stores?", "a": "Quick commerce competes for impulse snacks and metro convenience, but neighborhood Kiranas offering monthly credit books, fresh produce, and personalized service remain deeply entrenched." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "cybersecurity-analyst",
+    "title": "Cybersecurity & Penetration Tester",
+    "sector": "it-software",
+    "sectorName": "IT & Software Services",
+    "score": 28,
+    "label": "Low",
+    "timeline": "2032-2038",
+    "confidence": "High",
+    "summary": "As generative AI empowers cybercriminals with automated malware and deepfake fraud, the defensive demand for human security experts to conduct red-teaming, threat modeling, and incident response is soaring.",
+    "tasks": [
+      { "name": "Scanning code repositories for known CVE vulnerabilities", "status": "now", "note": "Automated security scanners flag known library flaws in CI/CD pipelines" },
+      { "name": "Triaging low-severity Security Operations Center (SOC) alert noise", "status": "now", "note": "AI SOAR tools correlate alerts and suppress false alarms automatically" },
+      { "name": "Formulating adversarial novel attack chains against enterprise systems", "status": "unlikely", "note": "Creative human attackers outmaneuver rigid defensive rules with lateral thinking" },
+      { "name": "Responding to active live ransomware intrusions and corporate extortion", "status": "unlikely", "note": "Negotiating with threat actors and isolating infected infrastructure requires human crisis command" },
+      { "name": "Auditing human social engineering and physical facility security", "status": "unlikely", "note": "Testing executive vulnerability to spear-phishing and social manipulation needs human cunning" }
+    ],
+    "aiWillDo": [
+      "Filter out 90% of routine SOC false-positive telemetry alerts automatically",
+      "Suggest instant firewall configuration updates against newly spotted zero-day signatures",
+      "Analyze malicious binary decompilations and draft automated incident summary briefs"
+    ],
+    "humansWillDo": [
+      "Think like adversarial nation-state attackers to discover novel zero-day attack vectors",
+      "Lead high-pressure corporate incident response during critical data breaches",
+      "Architect defense-in-depth enterprise resilience frameworks aligned with regulatory laws"
+    ],
+    "skillsToLearn": [
+      "Adversarial red-teaming and advanced exploit development",
+      "Cloud infrastructure security (AWS/Azure/GCP identity and VPC security)",
+      "LLM application security (OWASP Top 10 for LLMs, prompt injection defense)",
+      "Digital forensics and incident response (DFIR) investigations"
+    ],
+    "toolsToLearn": ["Burp Suite Professional", "Wireshark", "Splunk / Sentinel", "Metasploit", "CrowdStrike"],
+    "saferCareers": [
+      { "title": "Cloud Solutions Architect", "slug": "cloud-architect" },
+      { "title": "Full-Stack Software Engineer", "slug": "full-stack-developer" }
+    ],
+    "indiaNote": "India faces an estimated shortfall of over 40,000 qualified cybersecurity professionals. The enforcement of India's Digital Personal Data Protection (DPDP) Act with penalties up to ₹250 crore has catalyzed urgent hiring across Indian enterprises.",
+    "salaryRangeINR": "₹8.0 Lakh - ₹28.0 Lakh / year",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Won't AI fix all software security bugs automatically?", "a": "AI also helps attackers generate adaptive polymorphic malware at unprecedented speed. Security is an asymmetrical arms race where defenders must constantly innovate." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "agricultural-extension-officer",
+    "title": "Agricultural Extension Officer / Krishi Consultant",
+    "sector": "agriculture",
+    "sectorName": "Agriculture & Farming",
+    "score": 27,
+    "label": "Low",
+    "timeline": "2032-2039",
+    "confidence": "Medium",
+    "summary": "AI crop diagnostic apps provide instant pest identification, but convincing traditional Indian farmers to adopt new seed varieties, soil conservation methods, and drip irrigation requires trusted, on-the-ground rural persuasion.",
+    "tasks": [
+      { "name": "Diagnosing fungal crop leaf blights from smartphone photographs", "status": "now", "note": "Computer vision models identify common cotton and paddy diseases accurately" },
+      { "name": "Checking local mandi commodities wholesale price trends", "status": "now", "note": "Agri-apps aggregate e-NAM prices and suggest optimal sale timings" },
+      { "name": "Persuading skeptical village farmers to shift from flood to drip irrigation", "status": "unlikely", "note": "Overcoming ancestral farming traditions requires deep community trust and patience" },
+      { "name": "Conducting on-field soil sampling and physical terrain assessment", "status": "unlikely", "note": "Collecting physical soil cores and inspecting drainage slopes requires field presence" },
+      { "name": "Coordinating Farmer Producer Organizations (FPOs) for collective bargaining", "status": "unlikely", "note": "Organizing smallholders into collective cooperatives demands social leadership" }
+    ],
+    "aiWillDo": [
+      "Provide localized weather alerts and hyper-local pest outbreak forecasts via voice SMS",
+      "Analyze satellite multispectral imagery to map soil moisture deficits across talukas",
+      "Translate ICAR scientific research bulletins into colloquial rural dialects"
+    ],
+    "humansWillDo": [
+      "Walk the fields alongside farmers to understand their localized challenges and soil conditions",
+      "Build long-term community relationships that bridge scientific research and rural practice",
+      "Advocate for smallholder farmers during insurance loss assessments after crop damage"
+    ],
+    "skillsToLearn": [
+      "Drone piloting and multispectral agricultural aerial survey analysis",
+      "Climate-resilient regenerative agriculture and natural farming techniques",
+      "FPO formation, collective procurement, and market linkage management",
+      "Agri-fintech credit facilitation and crop insurance claims assistance"
+    ],
+    "toolsToLearn": ["Plantix", "QGIS", "AgriStack Portals", "e-NAM", "Bhashini Agri Bots"],
+    "saferCareers": [
+      { "title": "Primary School Educator", "slug": "primary-school-teacher" },
+      { "title": "High School Science Teacher", "slug": "high-school-teacher" }
+    ],
+    "indiaNote": "With over 140 million agricultural households in India, the bridge between modern AI advisory tools and actual farmer adoption relies heavily on human field officers, Krishi Vigyan Kendras (KVKs), and progressive FPO leaders.",
+    "salaryRangeINR": "₹3.0 Lakh - ₹7.0 Lakh / year",
+    "hiringTrend": "Stable",
+    "faqs": [
+      { "q": "Why can't farmers just use AI apps on their smartphones?", "a": "Millions do, but an app cannot verify if a fertilizer recommendation fits a farmer's specific cash budget, or help them physically apply for government solar pump subsidies." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "primary-school-teacher",
+    "title": "Primary School Educator",
+    "sector": "education",
+    "sectorName": "Education & Training",
+    "score": 25,
+    "label": "Low",
+    "timeline": "2033-2040",
+    "confidence": "High",
+    "summary": "Foundational literacy, emotional bonding, social play, empathy, conflict resolution, and childhood safety cannot be delegated to an AI screen. Early childhood education remains one of the most human-protective callings.",
+    "tasks": [
+      { "name": "Generating basic phonics worksheets and coloring templates", "status": "now", "note": "AI generates illustrated flashcards and story prompts instantly" },
+      { "name": "Automated attendance tracking and lunch meal count logs", "status": "now", "note": "Biometric or photo-based portals handle administrative school records" },
+      { "name": "Comforting a crying 5-year-old on their first day away from parents", "status": "unlikely", "note": "Tender emotional warmth, physical presence, and comforting words are human" },
+      { "name": "Teaching young children how to share toys and resolve playground fights", "status": "unlikely", "note": "Nurturing fundamental social empathy and moral behavior requires human modeling" },
+      { "name": "Developing fine motor skills through clay modeling and paper cutting", "status": "unlikely", "note": "Physical tactile motor development requires hands-on demonstration and guidance" }
+    ],
+    "aiWillDo": [
+      "Generate personalized illustrated storybooks tailored to a child's specific interests",
+      "Assist in identifying early speech delays and learning disabilities through speech analysis",
+      "Reduce teachers' administrative lesson-planning and grading workload by 60%"
+    ],
+    "humansWillDo": [
+      "Provide a warm, emotionally secure haven where young children feel loved and valued",
+      "Model kindness, sharing, honest communication, and emotional resilience daily",
+      "Foster motor skills, physical active play, and foundational social friendships"
+    ],
+    "skillsToLearn": [
+      "Early childhood development psychology and sensory play pedagogy",
+      "Special education needs (SEN) identification and inclusive classroom design",
+      "Social-emotional learning (SEL) curriculum facilitation",
+      "Creative storytelling, puppetry, and arts-integrated education"
+    ],
+    "toolsToLearn": ["Canva for Education", "Seesaw", "Epic! Kids Books", "Phonics Apps"],
+    "saferCareers": [
+      { "title": "High School Science Teacher", "slug": "high-school-teacher" },
+      { "title": "Registered Staff Nurse", "slug": "staff-nurse" }
+    ],
+    "indiaNote": "India's National Education Policy places immense priority on Foundational Literacy and Numeracy (NIPUN Bharat mission). Pre-primary and primary educators with genuine passion for child development enjoy deep respect and permanent demand.",
+    "salaryRangeINR": "₹2.5 Lakh - ₹6.5 Lakh / year",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Will young kids be taught by AI tablets instead of teachers?", "a": "Excessive early screen time is widely recognized by pediatricians and parents as detrimental to brain development. Early childhood education requires physical, eye-to-eye human interaction." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "investigative-journalist",
+    "title": "Investigative Journalist",
+    "sector": "media-content",
+    "sectorName": "Media & Content",
+    "score": 22,
+    "label": "Low",
+    "timeline": "2032-2038",
+    "confidence": "High",
+    "summary": "While AI easily regurgitates press releases, uncovering hidden public corruption, gaining the trust of whistleblowers, and conducting dangerous on-ground investigative reportage cannot be automated.",
+    "tasks": [
+      { "name": "Transcribing recorded audio interviews and press conferences", "status": "now", "note": "Automated speech-to-text models transcribe regional recordings accurately" },
+      { "name": "Searching municipal corporate registries for cross-holdings", "status": "now", "note": "AI tools scrape and cross-reference MCA filings and electoral bond lists" },
+      { "name": "Meeting confidential whistleblowers in discreet, unmonitored locations", "status": "unlikely", "note": "Protecting sources and establishing mutual trust requires physical human courage" },
+      { "name": "Investigating illegal sand mining or environmental pollution on the ground", "status": "unlikely", "note": "Field observation, eyewitness interviewing, and personal risk are strictly human" },
+      { "name": "Connecting dots across political patronage and hidden financial interests", "status": "unlikely", "note": "Synthesizing non-indexed real-world power dynamics requires investigative human instinct" }
+    ],
+    "aiWillDo": [
+      "Transcribe and index thousands of hours of audio recordings and police filings",
+      "Detect anomalies across millions of rows of public procurement tenders",
+      "Translate investigative reports into multiple regional Indian languages for wider reach"
+    ],
+    "humansWillDo": [
+      "Cultivate high-stakes confidential human sources and whistleblowers over years",
+      "Brave physical danger to report directly from conflict zones, floods, and protests",
+      "Hold powerful institutions, politicians, and corporations accountable through moral courage"
+    ],
+    "skillsToLearn": [
+      "OSINT (Open Source Intelligence) and advanced data journalism techniques",
+      "Digital security, encrypted communications (Signal, PGP), and source protection",
+      "Financial forensic analysis (reading balance sheets and offshore holding structures)",
+      "Long-form narrative nonfiction storytelling and documentary filmmaking"
+    ],
+    "toolsToLearn": ["Signal", "Maltego", "OCCRP Aleph Database", "QGIS", "Google Pinpoint"],
+    "saferCareers": [
+      { "title": "Litigation Advocate (Courtroom)", "slug": "courtroom-litigator" },
+      { "title": "Investigative Journalist", "slug": "investigative-journalist" }
+    ],
+    "indiaNote": "India's independent investigative outlets (The Ken, Reporters' Collective, Scroll) depend on deep investigative rigor. As generative AI floods the internet with low-effort regurgitated content, high-trust original investigative journalism commands supreme value.",
+    "salaryRangeINR": "₹4.5 Lakh - ₹15.0 Lakh / year",
+    "hiringTrend": "Stable",
+    "faqs": [
+      { "q": "Can AI write investigative stories?", "a": "AI can only summarize what is already published online. It cannot uncover what corrupt actors are actively trying to conceal." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "courtroom-litigator",
+    "title": "Litigation Advocate (Courtroom / High Court)",
+    "sector": "legal-compliance",
+    "sectorName": "Legal & Compliance",
+    "score": 21,
+    "label": "Low",
+    "timeline": "2033-2040",
+    "confidence": "High",
+    "summary": "Courtroom advocacy is a live human performance involving spontaneous oral wit, observing the judge's facial skepticism, cross-examining trembling witnesses, and reading the courtroom atmosphere.",
+    "tasks": [
+      { "name": "Digging up supporting High Court and Supreme Court case citations", "status": "now", "note": "Legal AI tools discover pertinent case precedents in seconds" },
+      { "name": "Drafting standard bail applications and affidavit templates", "status": "now", "note": "Standard procedural petitions can be generated automatically" },
+      { "name": "Oral advocacy and spontaneous rejoinders before an impatient judge", "status": "unlikely", "note": "Reading the judge's mind and shifting argumentative angles dynamically is human mastery" },
+      { "name": "Cross-examining a hostile witness to expose perjury and contradictions", "status": "unlikely", "note": "Psychological pressure, dramatic pauses, and real-time interrogation cannot be coded" },
+      { "name": "Bargaining settlement terms in the courtroom corridors during recess", "status": "unlikely", "note": "Informal corridor bargaining and compromise rely entirely on human relationships" }
+    ],
+    "aiWillDo": [
+      "Synthesize thousands of pages of trial court records into a 5-page argument cheat-sheet",
+      "Predict opposing counsel's likely case arguments and prepare counter-citation lists",
+      "Transcribe daily courtroom proceedings into searchable digital transcripts"
+    ],
+    "humansWillDo": [
+      "Persuade judges through compelling oral rhetoric, moral indignation, and emotional conviction",
+      "Detect micro-expressions and nervous hesitations during witness cross-examination",
+      "Defend citizens against state overreach with fearless courtroom presence"
+    ],
+    "skillsToLearn": [
+      "Advanced oral advocacy, rhetoric, and persuasive cross-examination",
+      "Constitutional law and statutory interpretation doctrines",
+      "Mediation and out-of-court alternative dispute resolution (ADR)",
+      "Legal tech fluency for rapid courtroom digital record access"
+    ],
+    "toolsToLearn": ["SCC Online", "e-Courts Services App", "Manupatra", "Harvey AI"],
+    "saferCareers": [
+      { "title": "Legal Associate / Contract Reviewer", "slug": "legal-associate" },
+      { "title": "Chartered Accountant", "slug": "chartered-accountant" }
+    ],
+    "indiaNote": "With over 4.5 crore pending cases across Indian courts, the backlog is staggering. Litigators who know local bench conventions, court clerks, and regional language procedures will remain the bedrock of India's judicial machinery.",
+    "salaryRangeINR": "₹6.0 Lakh - ₹50.0 Lakh+ / year (Senior advocates charge lakhs per appearance)",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Will Indian courts ever allow an AI avatar to argue a case?", "a": "Bar Council of India regulations and court procedural rules strictly restrict the right of audience to licensed human advocates who have taken the professional oath." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "physiotherapist",
+    "title": "Physiotherapist & Rehabilitation Specialist",
+    "sector": "healthcare",
+    "sectorName": "Healthcare & Medicine",
+    "score": 19,
+    "label": "Low",
+    "timeline": "2034-2040",
+    "confidence": "High",
+    "summary": "Manual joint mobilization, muscle palpation, neuro-rehabilitation for stroke patients, and physical ergonomic coaching require nuanced tactile sensitivity and physical human encouragement.",
+    "tasks": [
+      { "name": "Designing customized home exercise video plans for patients", "status": "now", "note": "Apps generate animated exercise sequences tailored to recovery stages" },
+      { "name": "Tracking patient joint range-of-motion via smartphone cameras", "status": "now", "note": "Computer vision motion tracking measures degrees of flexion accurately" },
+      { "name": "Applying hands-on manual spinal mobilization and myofascial release", "status": "unlikely", "note": "Feeling subtle tissue tension and applying exact micro-pressure requires human hands" },
+      { "name": "Physically supporting a stroke survivor relearning how to walk", "status": "unlikely", "note": "Guiding human balance, preventing catastrophic falls, and building courage requires physical contact" },
+      { "name": "Providing emotional encouragement to athletes recovering from ACL tears", "status": "unlikely", "note": "Rebuilding an injured patient's physical confidence requires empathetic human coaching" }
+    ],
+    "aiWillDo": [
+      "Track patient exercise compliance and posture accuracy through smartphone cameras",
+      "Suggest evidence-based rehabilitation protocols based on orthopedic surgical reports",
+      "Automate patient appointment scheduling and recovery progress documentation"
+    ],
+    "humansWillDo": [
+      "Perform delicate manual therapy and tactile joint manipulation that relieves acute pain",
+      "Physically support fragile neurological and elderly patients during gait re-education",
+      "Provide continuous motivational emotional energy throughout agonizing recovery months"
+    ],
+    "skillsToLearn": [
+      "Manual therapy certifications (Maitland, Mulligan concepts)",
+      "Sports injury biomechanics and athletic performance conditioning",
+      "Geriatric and neurological rehabilitation methodologies",
+      "Computer vision posture assessment and digital telerehab tools"
+    ],
+    "toolsToLearn": ["Physitrack", "TheraBand Biofeedback", "Goniometer Apps", "EMG Biofeedback"],
+    "saferCareers": [
+      { "title": "Registered Staff Nurse", "slug": "staff-nurse" },
+      { "title": "General Physician / MBBS Doctor", "slug": "general-physician" }
+    ],
+    "indiaNote": "India's aging middle class and the epidemic of sedentary desk jobs in IT hubs (Bengaluru, Hyderabad, Pune) have fueled an enormous boom in demand for home-visit and clinical physiotherapists.",
+    "salaryRangeINR": "₹3.2 Lakh - ₹8.5 Lakh / year",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Can a robot perform physical therapy massage?", "a": "Mechanical massage chairs exist, but they lack tactile sensory feedback to identify knotted spasms or inflamed ligaments without risking tissue injury." }
+    ],
+    "lastUpdated": "October 2026"
+  },
+  {
+    "slug": "staff-nurse",
+    "title": "Registered Staff Nurse (ICU & Ward)",
+    "sector": "healthcare",
+    "sectorName": "Healthcare & Medicine",
+    "score": 18,
+    "label": "Low",
+    "timeline": "2034-2042",
+    "confidence": "High",
+    "summary": "Intravenous line insertions, catheter placements, emergency crash-cart resuscitation, wound dressing, patient comfort, and continuous bedside surveillance make nursing one of the safest careers on Earth from AI displacement.",
+    "tasks": [
+      { "name": "Calculating IV drug drip rates and dosage titrations", "status": "now", "note": "Smart infusion pumps calculate and regulate infusion rates automatically" },
+      { "name": "Logging patient vitals into electronic medical charts", "status": "now", "note": "Connected monitors automatically stream blood pressure and SpO2 to nursing dashboards" },
+      { "name": "Inserting IV cannulas into collapsed veins of dehydrated patients", "status": "unlikely", "note": "Tactile vein palpation and needle angle control in living human flesh requires nurse dexterity" },
+      { "name": "Responding instantaneously to sudden respiratory cardiac arrest in the ICU", "status": "unlikely", "note": "Chest compressions, airway bag-mask ventilation, and rapid intervention require hands" },
+      { "name": "Comforting a frightened, confused patient waking from major surgery", "status": "unlikely", "note": "Human physical presence, soothing touch, and voice reassurance remain irreplaceable" }
+    ],
+    "aiWillDo": [
+      "Predict patient septic shock and clinical deterioration 6 hours before vitals crash",
+      "Automate continuous medication dispensing and barcode verification at the bedside",
+      "Streamline clinical shift-handover documentation and nursing note summaries"
+    ],
+    "humansWillDo": [
+      "Deliver compassionate, tender physical bedside patient care 24 hours a day",
+      "Perform delicate clinical procedures: wound debridement, cannulation, tube feeds",
+      "Serve as the critical early warning safeguard against doctor prescription errors"
+    ],
+    "skillsToLearn": [
+      "Critical care (ICU/CCU) specialized nursing certifications",
+      "Advanced Cardiac Life Support (ACLS) and trauma resuscitation",
+      "Clinical informatics and bedside monitoring telemetry systems",
+      "Palliative and compassionate end-of-life patient communication"
+    ],
+    "toolsToLearn": ["Smart Infusion Pumps", "Philips IntelliVue Monitors", "Epic / Cerner EHR", "Vein Finders"],
+    "saferCareers": [
+      { "title": "General Physician / MBBS Doctor", "slug": "general-physician" },
+      { "title": "Physiotherapist & Rehabilitation Specialist", "slug": "physiotherapist" }
+    ],
+    "indiaNote": "India faces a catastrophic nursing deficit with widespread domestic shortages and immense global demand (UK NHS, Germany, Gulf countries actively recruiting Indian nurses). Qualified Indian nurses have unmatched career longevity and global mobility.",
+    "salaryRangeINR": "₹2.8 Lakh - ₹7.0 Lakh / year (Substantially higher overseas)",
+    "hiringTrend": "Growing",
+    "faqs": [
+      { "q": "Why is nursing so safe from AI?", "a": "Because healthcare is fundamentally biological and physical. AI has no hands, no tactile fingers, no biological empathy, and cannot insert a needle or comfort a dying patient." }
+    ],
+    "lastUpdated": "October 2026"
+  }
+]

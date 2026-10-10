@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIJobWatch India – AI Job Exposure & Career Transition Index</title>
+    <meta name="description" content="Research-based estimates of how AI will affect jobs and sectors in India. Find your AI exposure score, timeline, automatable tasks, and practical career future-proofing." />
+    <meta property="og:title" content="AIJobWatch India – AI Job Exposure & Career Transition Index" />
+    <meta property="og:description" content="Research-based estimates of how AI will affect jobs and sectors in India. Find your AI exposure score, timeline, and practical advice." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AIJobWatch India – AI Job Exposure & Career Transition Index" />
+    <meta name="twitter:description" content="Research-based estimates of how AI will affect jobs and sectors in India." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500..800;1,500..800&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('aijobwatch_theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAF8F4] text-[#171717] dark:bg-[#0C111C] dark:text-[#F3F4F6] antialiased selection:bg-teal-100 selection:text-teal-900 dark:selection:bg-teal-950 dark:selection:text-teal-200 transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

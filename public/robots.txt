@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aijobwatch.in/sitemap.xml

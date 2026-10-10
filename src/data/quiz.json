@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "category": "Task Repetition",
+    "question": "What proportion of your typical workday is spent on routine, repetitive digital or clerical tasks?",
+    "explanation": "Tasks with predictable digital inputs (data entry, copy-pasting, standard replies) are prime targets for automated models.",
+    "options": [
+      {
+        "label": "Over 70% — Most of my tasks follow predictable templates or scripts",
+        "points": 25,
+        "note": "High vulnerability to immediate workflow automation"
+      },
+      {
+        "label": "40% to 70% — A mix of standard workflows and unique problem-solving",
+        "points": 15,
+        "note": "Moderate exposure; routine half can be augmented"
+      },
+      {
+        "label": "20% to 40% — Mostly novel challenges with occasional documentation",
+        "points": 8,
+        "note": "Substantial human moat in daily activities"
+      },
+      {
+        "label": "Under 20% — Almost every day presents unscripted, spontaneous situations",
+        "points": 2,
+        "note": "Highly resilient against algorithmic automation"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Physical Presence",
+    "question": "How much does your role require physical tactile manipulation in unstructured real-world environments?",
+    "explanation": "Robots struggle with chaotic, unstructured physical tasks (climbing varied stairs, touching sensitive human tissue, tactile tool feel).",
+    "options": [
+      {
+        "label": "Zero — 100% of my work is performed on a laptop, screen, or phone",
+        "points": 20,
+        "note": "Pure digital tasks face the fastest software diffusion curves"
+      },
+      {
+        "label": "Minimal — Mostly desk work with occasional office hardware or filing",
+        "points": 14,
+        "note": "Physical component is too minor to provide defense"
+      },
+      {
+        "label": "Moderate — Regular on-site inspections, workshop calibration, or field visits",
+        "points": 6,
+        "note": "Physical presence creates a natural geographic and cost buffer"
+      },
+      {
+        "label": "Dominant — Heavy hands-on craft, manual therapy, surgery, driving, or farm field work",
+        "points": 0,
+        "note": "Hardware and embodied robotics lag far behind software LLMs"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Emotional Empathy",
+    "question": "Does your work depend on building high-stakes emotional trust, de-escalating human panic, or comforting vulnerable people?",
+    "explanation": "Biological empathy, moral solidarity, and genuine eye contact cannot be replaced by synthetic avatars.",
+    "options": [
+      {
+        "label": "Rarely — Interactions are transactional (status inquiries, technical specs, invoices)",
+        "points": 18,
+        "note": "Transactional chats are already resolved by voice/chat bots"
+      },
+      {
+        "label": "Occasionally — Standard customer service or team project check-ins",
+        "points": 12,
+        "note": "Basic customer relations face AI co-pilot integration"
+      },
+      {
+        "label": "Frequently — Managing sensitive client anxieties, mentoring team members, or teaching",
+        "points": 5,
+        "note": "Interpersonal emotional trust is highly valued"
+      },
+      {
+        "label": "Crucial Core — Bedside patient nursing, psychological counseling, crisis negotiation, or bereavement support",
+        "points": 0,
+        "note": "Deep human empathy forms an impregnable defensive moat"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Creative & Synthesis",
+    "question": "When producing deliverables (code, documents, designs, analysis), what is the source of your output?",
+    "explanation": "Regurgitating existing online material is trivial for LLMs; uncovering unpublished primary data or breaking new ground is human domain.",
+    "options": [
+      {
+        "label": "Summarizing or restructuring existing online information, rules, or boilerplate code",
+        "points": 18,
+        "note": "Generative models produce synthesized summaries in seconds"
+      },
+      {
+        "label": "Applying standard industry frameworks to customer data",
+        "points": 12,
+        "note": "Can be accelerated 3x with prompt-driven copilot tools"
+      },
+      {
+        "label": "Synthesizing cross-disciplinary insights and balancing complex corporate tradeoffs",
+        "points": 5,
+        "note": "Architectural judgment remains human-centric"
+      },
+      {
+        "label": "Uncovering original ground truth (field investigative reporting, breakthrough scientific research, bespoke litigation)",
+        "points": 0,
+        "note": "Primary intelligence discovery cannot be scraped from the web"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Regulatory & Legal Liability",
+    "question": "Does Indian law or statutory regulation require your personal certified signature and civil/criminal accountability?",
+    "explanation": "Sections of Indian law (Companies Act for CAs, Advocates Act for litigators, Medical Council for doctors) mandate human legal liability.",
+    "options": [
+      {
+        "label": "No — Anyone can execute my tasks without professional accreditation or personal legal risk",
+        "points": 12,
+        "note": "Zero statutory protection against corporate AI replacement"
+      },
+      {
+        "label": "Internal Only — My work is reviewed by internal company managers, but no government regulatory sign-off",
+        "points": 8,
+        "note": "Enterprise can replace processes if quality assurance holds"
+      },
+      {
+        "label": "Moderate — Semi-regulated domain with institutional compliance audits",
+        "points": 4,
+        "note": "Regulators require human-in-the-loop audit logs"
+      },
+      {
+        "label": "Strict Legal Mandate — I hold statutory licenses (Bar Council, ICAI, NMC/MCI) and bear personal legal liability",
+        "points": 0,
+        "note": "Courts and regulators strictly prohibit non-human certification"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Indian Wage Substitution Economics",
+    "question": "What is the capital substitution economics of your role in India?",
+    "explanation": "In high-wage IT services, companies save millions replacing workers with AI tokens; in low-wage physical labor, robotic hardware is far too expensive.",
+    "options": [
+      {
+        "label": "High-cost white-collar role — Software engineering, corporate finance, management consulting",
+        "points": 15,
+        "note": "Companies have intense financial motivation to automate high-salary seats"
+      },
+      {
+        "label": "Mid-tier formal role — BPO team leader, bank officer, content strategist",
+        "points": 10,
+        "note": "High margin pressure driving seat consolidation"
+      },
+      {
+        "label": "Entry-level physical or local service — Retail assistant, Kirana helper, delivery partner",
+        "points": 4,
+        "note": "Low wage levels make robotic automation financially unviable in India"
+      },
+      {
+        "label": "Smallholder or informal sector — Agriculture, artisanal fabrication, local community shopkeeper",
+        "points": 1,
+        "note": "Capital cost barriers insulate these roles for decades"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "AI Tool Adoption in Your Daily Work",
+    "question": "How frequently do you currently leverage AI assistants (ChatGPT, Claude, Copilot, Cursor, Midjourney) in your workflow?",
+    "explanation": "Workers who proactively orchestrate AI tools multiply their output and shift from task executors to systems directors.",
+    "options": [
+      {
+        "label": "Never — I do not use AI tools at all and don't know how they work",
+        "points": 15,
+        "note": "Severe vulnerability to being outperformed by AI-empowered peers"
+      },
+      {
+        "label": "Occasionally — Basic Google searches or asking ChatGPT for occasional email drafts",
+        "points": 9,
+        "note": "Surface-level usage without deep workflow integration"
+      },
+      {
+        "label": "Regularly — Daily prompt workflows for drafting, coding, or data formatting",
+        "points": 3,
+        "note": "Active user capturing significant productivity gains"
+      },
+      {
+        "label": "Mastery — I orchestrate multi-agent workflows, API automations, and evaluate model outputs critically",
+        "points": 0,
+        "note": "You are directing the technology rather than competing with it"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Adaptability & Upskilling",
+    "question": "How fast can you pivot into adjacent technical, managerial, or specialized domains over the next 12 months?",
+    "explanation": "Career adaptability is the single strongest predictor of long-term economic resilience.",
+    "options": [
+      {
+        "label": "Difficult — My skills are narrowly specialized to one legacy software or rigid script",
+        "points": 12,
+        "note": "High risk of skill obsolescence without immediate re-skilling"
+      },
+      {
+        "label": "Moderate — I can take weekend online courses, but career transition would take 2+ years",
+        "points": 7,
+        "note": "Gradual adaptation window"
+      },
+      {
+        "label": "High — I have strong fundamental problem-solving skills and learn new tech within weeks",
+        "points": 2,
+        "note": "Strong foundational generalist capacity"
+      },
+      {
+        "label": "Very High — I have a strong multidisciplinary network, commercial acumen, and thrive in ambiguous environments",
+        "points": 0,
+        "note": "Maximum career antifragility"
+      }
+    ]
+  }
+]

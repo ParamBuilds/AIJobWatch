@@ -1,0 +1,6 @@
+{
+  "name": "AIJobWatch India - AI Job Exposure & Career Transition Index",
+  "description": "Research-based estimates of how AI and automation will affect jobs and sectors in India. Find your AI exposure score, timelines, automatable tasks, and future-proofing guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,299 @@
+[
+  {
+    "slug": "bpo-customer-support",
+    "name": "BPO & Customer Support",
+    "iconName": "Headphones",
+    "shortDesc": "High front-line task automation for Tier-1 voice, ticket triage, and chat support.",
+    "summary": "India's Business Process Management (BPM) industry employs over 1.4 million people. Generative conversational agents, voice synthesis, and automated deflection workflows are accelerating task replacement for repetitive L1 queries, forcing a swift transition towards high-context customer advocacy, AI agent training, and escalation management.",
+    "overallRisk": "Very High",
+    "avgScore": 81,
+    "timeline": "2026-2029",
+    "employmentShareIndia": "~1.5M Direct Employees",
+    "emergingRoles": [
+      "AI Prompt & Escalation Supervisor",
+      "Customer Empathy & De-escalation Specialist",
+      "Conversation Flow Evaluator",
+      "Cross-Border Compliance Arbiter"
+    ],
+    "riskDrivers": [
+      "Natural language voice agents handling accents with <300ms latency",
+      "Automated multilingual translation reducing language-hub advantages",
+      "Self-resolving support bots resolving up to 60-70% of routine complaints"
+    ],
+    "resilientAreas": [
+      "High-value fraud investigations and dispute arbitration",
+      "Complex B2B enterprise account management",
+      "Emergency distress response and sensitive medical queries"
+    ]
+  },
+  {
+    "slug": "it-software",
+    "name": "IT & Software Services",
+    "iconName": "Code2",
+    "shortDesc": "Massive shift from manual coding and QA testing to systems architecture and AI oversight.",
+    "summary": "With over 5 million Indian engineers powering global services, IT is undergoing an unprecedented architectural reset. AI coding companions write boilerplate, unit tests, and routine APIs in seconds. Roles are shifting from volume-based billable hours toward product engineering, security verification, and AI orchestration.",
+    "overallRisk": "High",
+    "avgScore": 73,
+    "timeline": "2026-2030",
+    "employmentShareIndia": "~5.4M Professionals",
+    "emergingRoles": [
+      "AI Systems Architect",
+      "LLM Security & Red Teamer",
+      "Data Pipeline & Fine-tuning Engineer",
+      "Legacy Code Modernization Specialist"
+    ],
+    "riskDrivers": [
+      "Autonomous code generation for routine CRUD, refactoring, and documentation",
+      "Automated visual regression testing and synthetic bug detection",
+      "SaaS consolidation diminishing demand for routine customization"
+    ],
+    "resilientAreas": [
+      "System design, distributed concurrency, and low-latency architecture",
+      "Mission-critical hardware-software interfaces (embedded, IoT)",
+      "Cybersecurity, zero-trust infrastructure, and regulatory audit"
+    ]
+  },
+  {
+    "slug": "banking-finance",
+    "name": "Banking & Finance",
+    "iconName": "Landmark",
+    "shortDesc": "Algorithmic underwriting, automated document verification, and fraud detection reshape clerical banking.",
+    "summary": "India's BFSI sector is simultaneously expanding financial inclusion and automating routine operations. KYC verification, loan pre-approvals, balance reconciliation, and basic algorithmic credit assessments are largely automated, while relationship banking, wealth management, and distressed debt workouts remain human-centric.",
+    "overallRisk": "High",
+    "avgScore": 68,
+    "timeline": "2027-2031",
+    "employmentShareIndia": "~4.2M BFSI Employees",
+    "emergingRoles": [
+      "Fintech AI Model Risk Officer",
+      "High-Net-Worth Relationship Partner",
+      "Algorithmic Fraud Forensic Lead",
+      "Micro-Lending Field Underwriter"
+    ],
+    "riskDrivers": [
+      "Automated OCR and bank statement parsing via Account Aggregator framework",
+      "Predictive default modeling surpassing standard rule-based credit scoring",
+      "Self-directed robo-advisory tools taking over retail index investing"
+    ],
+    "resilientAreas": [
+      "Complex corporate structured debt negotiation",
+      "Rural branch trust-building and localized community credit assessment",
+      "Regulatory compliance dialog with Reserve Bank of India (RBI)"
+    ]
+  },
+  {
+    "slug": "media-content",
+    "name": "Media & Content",
+    "iconName": "PenTool",
+    "shortDesc": "Generative copywriting, translation, and stock imagery radically compress generic content production.",
+    "summary": "Digital publishing, SEO writing, localization, and entry-level graphic design face immediate pressure from generative AI models. However, high-context investigative journalism, on-ground reporting in diverse Indian dialects, nuanced cultural commentary, and authentic personal brands command higher trust than ever.",
+    "overallRisk": "Very High",
+    "avgScore": 79,
+    "timeline": "2025-2028",
+    "employmentShareIndia": "~1.8M Creative & Media Workers",
+    "emergingRoles": [
+      "Senior Investigative Reporter",
+      "AI Creative Director & Prompt Strategist",
+      "Deepfake & Content Provenance Auditor",
+      "Hyper-Local Community Storyteller"
+    ],
+    "riskDrivers": [
+      "High-speed generation of SEO articles, product descriptions, and press releases",
+      "Voice cloning and synthetic dubbing reducing routine studio voiceover demand",
+      "AI video generation tools accelerating rapid draft storyboarding"
+    ],
+    "resilientAreas": [
+      "On-the-ground investigative journalism and whistle-blower reportage",
+      "Regional investigative features requiring field trust and deep local dialect fluency",
+      "Signature authorial voices and editorial perspectives"
+    ]
+  },
+  {
+    "slug": "legal-compliance",
+    "name": "Legal & Compliance",
+    "iconName": "Scale",
+    "shortDesc": "Contract analysis, precedent discovery, and routine drafting become automated; court advocacy endures.",
+    "summary": "AI tools can read 500-page lease contracts and spot non-compliant clauses in minutes. Junior associates and legal clerks who previously spent hours on discovery and boilerplate agreements must elevate into strategic risk advisory, negotiation, and high-stakes Indian litigation.",
+    "overallRisk": "Moderate",
+    "avgScore": 58,
+    "timeline": "2027-2032",
+    "employmentShareIndia": "~1.5M Legal Practitioners",
+    "emergingRoles": [
+      "Legal AI Tool Compliance Auditor",
+      "Cross-Jurisdictional Data Sovereign Counsel",
+      "AI Ethics & Liability Arbitrator",
+      "Mediation & Alternative Dispute Specialist"
+    ],
+    "riskDrivers": [
+      "Rapid discovery and clause extraction across thousands of legal filings",
+      "Automated standard NDA, vendor agreement, and employment contract generators",
+      "Predictive judgment trend analysis based on e-Courts case law databases"
+    ],
+    "resilientAreas": [
+      "Live courtroom argument, witness cross-examination, and judicial bench dynamics",
+      "Complex corporate mergers and cross-border regulatory bargaining",
+      "Client counseling during emotional familial and criminal crises"
+    ]
+  },
+  {
+    "slug": "education",
+    "name": "Education & Training",
+    "iconName": "GraduationCap",
+    "shortDesc": "AI tutors personalize homework and grading, while human educators focus on mentorship and social-emotional guidance.",
+    "summary": "India's massive education ecosystem—from test-prep academies to rural schools—is seeing adaptive AI tutors that tailor explanations to student pace. Routine grading, quiz generation, and standard lecture delivery are easily automated, shifting the educator's value toward mentorship, motivation, lab guidance, and ethical grounding.",
+    "overallRisk": "Moderate",
+    "avgScore": 46,
+    "timeline": "2028-2033",
+    "employmentShareIndia": "~9.8M Teachers & Instructors",
+    "emergingRoles": [
+      "Adaptive Learning Pathway Curator",
+      "Student Emotional Well-being Mentor",
+      "Hybrid Classroom Experience Designer",
+      "STEM Inquiry & Experiential Lab Facilitator"
+    ],
+    "riskDrivers": [
+      "24/7 personalized AI study companions in multiple regional Indian languages",
+      "Automated assignment grading and diagnostic feedback generators",
+      "Modular, self-paced certification micro-courses"
+    ],
+    "resilientAreas": [
+      "Early childhood development and foundational social skills nurturing",
+      "Hands-on scientific lab instruction and vocational apprenticeship",
+      "Inspiring intrinsic curiosity, critical ethics, and emotional resilience"
+    ]
+  },
+  {
+    "slug": "healthcare",
+    "name": "Healthcare & Medicine",
+    "iconName": "Activity",
+    "shortDesc": "Diagnostic imaging and transcription assist doctors; physical clinical care remains human-critical.",
+    "summary": "India suffers from an acute doctor-to-patient deficit (approx 0.7 per 1,000 citizens in rural zones). AI acts as a vital diagnostic force-multiplier rather than a job eliminator. Triage, preliminary X-ray/retinal screening, and clinical paperwork are automated, freeing healthcare personnel for direct patient care.",
+    "overallRisk": "Low",
+    "avgScore": 31,
+    "timeline": "2030-2036",
+    "employmentShareIndia": "~7.5M Healthcare Workers",
+    "emergingRoles": [
+      "Clinical AI Scribe & Protocol Specialist",
+      "Telemedicine Triage Operator",
+      "Genomic & Personalized Medicine Navigator",
+      "Robotic Surgical Assistant Operator"
+    ],
+    "riskDrivers": [
+      "Computer vision systems screening for diabetic retinopathy and tuberculosis",
+      "Automated speech-to-EHR clinical transcription",
+      "Pharmacological drug-interaction checking software"
+    ],
+    "resilientAreas": [
+      "Bedside nursing, palliative care, and physical trauma intervention",
+      "Surgical execution requiring tactile nuance and emergency intraoperative judgment",
+      "Empathetic prognosis communication and compassionate end-of-life care"
+    ]
+  },
+  {
+    "slug": "retail-ecommerce",
+    "name": "Retail & E-Commerce",
+    "iconName": "ShoppingBag",
+    "shortDesc": "Inventory optimization and cataloging automate; physical salesmanship and local trust endure.",
+    "summary": "India's retail landscape is a hybrid of over 12 million neighbourhood Kirana stores and rapid quick-commerce platforms. E-commerce cataloging, demand forecasting, and dynamic pricing are heavily algorithmic, but local shopkeepers provide credit, social interaction, and customized localized inventory that algorithms cannot replicate.",
+    "overallRisk": "Moderate",
+    "avgScore": 52,
+    "timeline": "2028-2032",
+    "employmentShareIndia": "~40M Retail & Wholesale Workers",
+    "emergingRoles": [
+      "Omnichannel Experience Manager",
+      "Hyperlocal Demand Analyst",
+      "Visual Merchandising Technologist",
+      "Community Commerce Relationship Lead"
+    ],
+    "riskDrivers": [
+      "Automated inventory tracking and predictive replenishment algorithms",
+      "Self-checkout and RFID-based unstaffed retail pilots in tier-1 metros",
+      "Automated catalog image enhancement and product listing generation"
+    ],
+    "resilientAreas": [
+      "Neighbourhood Kirana trust, interest-free informal credit, and doorstep goodwill",
+      "High-end luxury consultation and bridal/jewellery personalized curation",
+      "Last-mile tactile product assessment and personal bargaining"
+    ]
+  },
+  {
+    "slug": "manufacturing",
+    "name": "Manufacturing & Assembly",
+    "iconName": "Cog",
+    "shortDesc": "Vision-guided robotics automate repetitive lines; high capital costs moderate Indian replacement pace.",
+    "summary": "While advanced automated factories exist in automotive and electronics corridors (e.g., Chennai, Pune, Sriperumbudur), India's comparatively lower labor costs and SME predominance slow down full robotic capital investments. Quality inspection and high-speed sorting face rapid computer-vision adoption.",
+    "overallRisk": "Moderate",
+    "avgScore": 49,
+    "timeline": "2029-2034",
+    "employmentShareIndia": "~35M Manufacturing Workers",
+    "emergingRoles": [
+      "Cobot (Collaborative Robot) Maintenance Technician",
+      "Industrial Computer Vision Calibration Lead",
+      "Predictive Maintenance Systems Specialist",
+      "Quality Assurance Data Analyst"
+    ],
+    "riskDrivers": [
+      "AI visual inspection systems detecting micro-defects at line speeds",
+      "Autonomous automated guided vehicles (AGVs) in modern warehousing",
+      "Predictive vibration and thermal sensors replacing manual equipment checks"
+    ],
+    "resilientAreas": [
+      "Custom fabrication, artisanal metalwork, and low-volume non-standard assembly",
+      "Diagnostic machine troubleshooting in unstructured factory environments",
+      "Physical maintenance and setup changes on legacy mechanical machinery"
+    ]
+  },
+  {
+    "slug": "agriculture",
+    "name": "Agriculture & Farming",
+    "iconName": "Sprout",
+    "shortDesc": "Satellite crop diagnostics and weather advisory augment smallholders; manual labor faces low near-term disruption.",
+    "summary": "Over 40% of India's workforce is engaged in agriculture, mostly on smallholder holdings under 2 hectares. AI serves primarily as a handheld advisory tool (pest detection via smartphone photos, satellite soil moisture advisories, and mandi price forecasting) without replacing physical farm labor anytime soon.",
+    "overallRisk": "Low",
+    "avgScore": 22,
+    "timeline": "2032-2040",
+    "employmentShareIndia": "~150M Agricultural Workers",
+    "emergingRoles": [
+      "Precision Agri-Drone Operator",
+      "Krishi AI Advisory Field Officer",
+      "Soil & Climate Resilience Data Scout",
+      "FPO (Farmer Producer Org) Digital Coordinator"
+    ],
+    "riskDrivers": [
+      "Automated drone spraying on commercial sugarcane and cotton acreage",
+      "Computer vision apps diagnosing plant leaf diseases instantly from phones",
+      "Algorithmic commodities procurement reducing intermediary broker layers"
+    ],
+    "resilientAreas": [
+      "Physical sowing, weeding, and selective harvesting on fragmented terrain",
+      "Cattle handling, veterinary husbandry, and dairy herd care",
+      "Local microclimate intuition and seasonal farming adaptation"
+    ]
+  },
+  {
+    "slug": "transport-logistics",
+    "name": "Transport & Logistics",
+    "iconName": "Truck",
+    "shortDesc": "Route dispatch and warehouse sorting are highly automated; chaotic Indian traffic protects commercial drivers.",
+    "summary": "Autonomous driving algorithms trained on tidy Western roads face steep hurdles in India's complex, dense traffic with mixed vehicles, pedestrians, and livestock. Logistics dispatch and route optimization are already highly automated, but drivers, delivery partners, and warehouse handlers remain indispensable in the medium term.",
+    "overallRisk": "Moderate",
+    "avgScore": 44,
+    "timeline": "2030-2036",
+    "employmentShareIndia": "~22M Transport Workers",
+    "emergingRoles": [
+      "Fleet Telematics & Route Optimization Controller",
+      "Last-Mile Electric Vehicle Hub Coordinator",
+      "Drone Delivery Corridor Monitor",
+      "Cold-Chain IoT Integrity Manager"
+    ],
+    "riskDrivers": [
+      "Dynamic algorithmic dispatch and route sequencing replacing human fleet dispatchers",
+      "Automated parcel sorting hubs in major national courier terminals",
+      "Automated toll deduction, weigh-in-motion, and e-way bill enforcement"
+    ],
+    "resilientAreas": [
+      "Navigating unpredictable Indian city traffic, monsoon waterlogging, and unmarked roads",
+      "Complex multi-floor apartment delivery, cash-on-delivery handling, and gatekeeper coordination",
+      "Vehicle emergency roadside repair and localized navigation without GPS"
+    ]
+  }
+]

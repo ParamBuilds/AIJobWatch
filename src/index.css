@@ -1,0 +1,266 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Fraunces', 'Playfair Display', Georgia, Cambria, serif;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+    --color-bg-light: #FAF8F4;
+    --color-bg-dark: #0C111C;
+    --color-surface-light: #FFFFFF;
+    --color-surface-dark: #131A29;
+    --color-accent: #0F766E;
+    --color-accent-hover: #115E59;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: var(--color-bg-light);
+    color: #171717;
+    font-family: var(--font-sans);
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  .dark body {
+    background-color: var(--color-bg-dark);
+    color: #F3F4F6;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+
+  code, kbd, samp, pre {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Marquee Ticker Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 45s linear infinite;
+}
+
+/* Fluid UI Animation Keyframes */
+@keyframes spinSlow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes spinSlowReverse {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+@keyframes radarSweep {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-7px) rotate(0.8deg); }
+}
+
+@keyframes waveFlow {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 240; }
+}
+
+@keyframes pulseSubtle {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.9; transform: scale(1.08); }
+}
+
+@keyframes beaconPing {
+  0% { transform: scale(1); opacity: 0.85; }
+  60% { transform: scale(2.2); opacity: 0; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 24s linear infinite;
+}
+
+.animate-spin-reverse-slow {
+  animation: spinSlowReverse 32s linear infinite;
+}
+
+.animate-radar-sweep {
+  transform-origin: center;
+  animation: radarSweep 7s linear infinite;
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-wave-flow {
+  animation: waveFlow 20s linear infinite;
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 3.5s ease-in-out infinite;
+}
+
+.animate-beacon {
+  animation: beaconPing 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.mask-fade-edges {
+  mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Hero subtle gradient-mesh background */
+.bg-hero-mesh {
+  background-color: #FAF8F4;
+  background-image: 
+    radial-gradient(at 18% 22%, rgba(15, 118, 110, 0.08) 0px, transparent 55%),
+    radial-gradient(at 82% 15%, rgba(217, 119, 6, 0.06) 0px, transparent 50%),
+    radial-gradient(at 48% 75%, rgba(13, 148, 136, 0.05) 0px, transparent 55%);
+}
+
+.dark .bg-hero-mesh {
+  background-color: #0C111C;
+  background-image: 
+    radial-gradient(at 18% 22%, rgba(20, 184, 166, 0.12) 0px, transparent 55%),
+    radial-gradient(at 82% 15%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+    radial-gradient(at 48% 75%, rgba(15, 118, 110, 0.10) 0px, transparent 55%);
+}
+
+/* Subtle grain texture overlay for hero only */
+.hero-grain {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.dark .hero-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Abstract Grid & Technical Vector Patterns */
+.abstract-dots-bg {
+  background-image: radial-gradient(rgba(15, 118, 110, 0.12) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.dark .abstract-dots-bg {
+  background-image: radial-gradient(rgba(20, 184, 166, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.abstract-hatch-bg {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(15, 118, 110, 0.03) 10px,
+    rgba(15, 118, 110, 0.03) 11px
+  );
+}
+
+.dark .abstract-hatch-bg {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(20, 184, 166, 0.04) 10px,
+    rgba(20, 184, 166, 0.04) 11px
+  );
+}
+
+.abstract-blueprint-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(148, 163, 184, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.1) 1px, transparent 1px);
+}
+
+.dark .abstract-blueprint-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(30, 41, 59, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 41, 59, 0.5) 1px, transparent 1px);
+}
+
+/* Technical Corner Markings */
+.technical-corners {
+  position: relative;
+}
+.technical-corners::before {
+  content: "┌";
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  opacity: 0.35;
+  pointer-events: none;
+}
+.technical-corners::after {
+  content: "┘";
+  position: absolute;
+  bottom: 4px;
+  right: 6px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Print styling for job pages */
+@media print {
+  header, footer, nav, .no-print, .ad-slot, .cookie-banner, .back-to-top, .scroll-progress {
+    display: none !important;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  .print-page {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .print-break-inside-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}
