@@ -27,12 +27,14 @@ import { AbstractBannerPoster } from '../components/abstract/AbstractBannerPoste
 import { AbstractSectionDivider } from '../components/abstract/AbstractSectionDivider';
 import { AbstractCardAccent } from '../components/abstract/AbstractCardAccent';
 import { AbstractMetricGlyph } from '../components/abstract/AbstractMetricGlyph';
+import { useLanguage } from '../context/LanguageContext';
 import jobsData from '../data/jobs.json';
 import sectorsData from '../data/sectors.json';
 import blogData from '../data/blog.json';
 import { Job, Sector, BlogPost } from '../types';
 
 export const HomePage: React.FC = () => {
+  const { t } = useLanguage();
   const [selectedSectorFilter, setSelectedSectorFilter] = useState<string>('all');
   const jobs = jobsData as Job[];
   const sectors = sectorsData as Sector[];
@@ -146,7 +148,7 @@ export const HomePage: React.FC = () => {
                   <div className="flex items-center gap-2">
                     <AlertTriangle className="w-5 h-5 text-rose-600 dark:text-rose-400" />
                     <h2 className="text-xl font-serif-heading font-bold text-slate-900 dark:text-slate-100">
-                      Most at Risk of Task Automation
+                      {t('showcase.mostAtRisk', 'Highest AI Exposure Careers')}
                     </h2>
                   </div>
                   <span className="text-[10px] font-mono uppercase font-bold text-rose-700 dark:text-rose-400 bg-rose-50 dark:bg-rose-950/60 px-2 py-0.5 rounded">
@@ -213,7 +215,7 @@ export const HomePage: React.FC = () => {
                   <div className="flex items-center gap-2">
                     <ShieldCheck className="w-5 h-5 text-teal-600 dark:text-teal-400" />
                     <h2 className="text-xl font-serif-heading font-bold text-slate-900 dark:text-slate-100">
-                      Safest & Most Resilient Careers
+                      {t('showcase.safest', 'Safest & Most Resilient Careers')}
                     </h2>
                   </div>
                   <span className="text-[10px] font-mono uppercase font-bold text-teal-700 dark:text-teal-400 bg-teal-50 dark:bg-teal-950/60 px-2 py-0.5 rounded">
@@ -294,10 +296,10 @@ export const HomePage: React.FC = () => {
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
               <div>
                 <h2 className="text-2xl font-serif-heading font-bold text-slate-900 dark:text-slate-50">
-                  Complete Indian Careers Directory ({jobs.length} Profiles)
+                  {t('dir.title', `Complete Indian Occupation Directory (${jobs.length} Roles)`)}
                 </h2>
                 <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-                  Filter by sector to review task breakdowns, Indian salary scales, and future-proof skills.
+                  {t('dir.subtitle', 'Filter by sector to review task breakdowns, Indian salary scales, and future-proof skills.')}
                 </p>
               </div>
 

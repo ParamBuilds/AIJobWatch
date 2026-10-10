@@ -1,18 +1,38 @@
 import React from 'react';
 import { motion, useReducedMotion, Variants } from 'framer-motion';
+import { useLanguage } from '../../context/LanguageContext';
 
 export const AnimatedHeadline: React.FC = () => {
   const shouldReduceMotion = useReducedMotion();
+  const { language } = useLanguage();
 
-  const line1Words = ['Will', 'AI', 'take', 'your', 'job', 'in', 'India?'];
-  const line2Words = ['And', 'when?'];
+  const getHeadlineWords = () => {
+    if (language === 'hi') {
+      return {
+        line1: ['क्या', 'एआई', 'भारत', 'में', 'आपकी', 'नौकरी', 'ले', 'लेगा?'],
+        line2: ['और', 'कब', 'तक?']
+      };
+    }
+    if (language === 'te') {
+      return {
+        line1: ['భారతదేశంలో', 'AI', 'మీ', 'ఉద్యోగాన్ని', 'తీసుకుంటుందా?'],
+        line2: ['మరియు', 'ఎప్పుడు?']
+      };
+    }
+    return {
+      line1: ['Will', 'AI', 'take', 'your', 'job', 'in', 'India?'],
+      line2: ['And', 'when?']
+    };
+  };
+
+  const { line1: line1Words, line2: line2Words } = getHeadlineWords();
 
   if (shouldReduceMotion) {
     return (
       <h1 className="text-3xl sm:text-5xl lg:text-6xl font-serif-heading font-bold text-slate-900 dark:text-slate-50 tracking-tight leading-[1.15]">
-        Will AI take your job in India?{' '}
+        {line1Words.join(' ')}{' '}
         <span className="italic font-normal text-teal-800 dark:text-teal-400">
-          And when?
+          {line2Words.join(' ')}
         </span>
       </h1>
     );

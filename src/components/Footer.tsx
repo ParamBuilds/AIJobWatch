@@ -62,6 +62,7 @@ export const Footer: React.FC = () => {
               Intelligence Tools
             </div>
             <ul className="space-y-1.5 list-none p-0 m-0">
+              <li><Link to="/dashboard" className="text-teal-700 dark:text-teal-400 font-semibold hover:text-slate-950 dark:hover:text-slate-50 transition-colors">★ 3D National Dashboard</Link></li>
               <li><Link to="/#all-jobs" className="hover:text-slate-950 dark:hover:text-slate-50 transition-colors">40 Indian Careers Index</Link></li>
               <li><Link to="/#sectors" className="hover:text-slate-950 dark:hover:text-slate-50 transition-colors">11 Economic Sectors</Link></li>
               <li><Link to="/compare" className="hover:text-slate-950 dark:hover:text-slate-50 transition-colors">Side-by-Side Job Comparison</Link></li>
@@ -106,7 +107,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Epistemic Disclaimer Bar */}
-        <div className="pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-[11px] text-slate-500 dark:text-slate-500">
+        <div className="pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-[11px] text-slate-500 dark:text-slate-500 border-b border-slate-200 dark:border-slate-800/80 pb-5">
           <div className="flex items-center gap-1.5 text-center md:text-left">
             <ShieldAlert className="w-3.5 h-3.5 text-amber-600 shrink-0" />
             <span>
@@ -115,6 +116,31 @@ export const Footer: React.FC = () => {
           </div>
           <div className="text-center md:text-right shrink-0">
             &copy; {new Date().getFullYear()} AIJobWatch India. Published under Creative Commons for public educational use.
+          </div>
+        </div>
+
+        {/* Creator Attribution / Made with love in India */}
+        <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-600 dark:text-slate-300">
+          <div className="flex items-center gap-1.5 font-medium">
+            <span>Made with</span>
+            <Heart className="w-4 h-4 text-rose-500 fill-rose-500 inline animate-pulse" aria-label="love" />
+            <span>in India, by</span>
+            <span className="font-semibold text-slate-900 dark:text-slate-100 hover:text-teal-700 dark:hover:text-teal-300 transition-colors">
+              Pramudit Tiwari
+            </span>
+          </div>
+          <div className="flex items-center gap-3 text-[11px] text-slate-500 dark:text-slate-400">
+            <a
+              href="mailto:connecttopramudit@gmail.com"
+              className="hover:text-teal-700 dark:hover:text-teal-300 transition-colors flex items-center gap-1"
+            >
+              <Mail className="w-3.5 h-3.5" />
+              <span>connecttopramudit@gmail.com</span>
+            </a>
+            <span aria-hidden="true">·</span>
+            <span className="font-mono text-[10px] uppercase tracking-wider text-teal-700 dark:text-teal-400 font-semibold bg-teal-50 dark:bg-teal-950/60 px-2 py-0.5 rounded border border-teal-200/50 dark:border-teal-800/50">
+              India Labor Watch
+            </span>
           </div>
         </div>
       </div>

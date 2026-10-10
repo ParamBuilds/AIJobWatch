@@ -7,6 +7,7 @@ import { PageTransition } from './animations/PageTransition';
 import { BackToTop } from './BackToTop';
 import { CookieConsent } from './CookieConsent';
 import { CommandPalette } from './CommandPalette';
+import { GoogleTranslateWidget } from './GoogleTranslateWidget';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -64,6 +65,7 @@ export const Layout: React.FC<LayoutProps> = ({
       {/* Utilities */}
       <BackToTop />
       <CookieConsent />
+      <GoogleTranslateWidget />
 
       {/* Command Palette (Cmd+K / Ctrl+K) */}
       <CommandPalette

@@ -15,6 +15,7 @@ import { SectorPage } from './pages/SectorPage';
 import { ComparePage } from './pages/ComparePage';
 import { TimelinePage } from './pages/TimelinePage';
 import { QuizPage } from './pages/QuizPage';
+import { DashboardPage } from './pages/DashboardPage';
 import { BlogListPage } from './pages/BlogListPage';
 import { BlogPostPage } from './pages/BlogPostPage';
 import { MethodologyPage } from './pages/MethodologyPage';
@@ -24,6 +25,7 @@ import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
 import { TermsPage } from './pages/TermsPage';
 import { DisclaimerPage } from './pages/DisclaimerPage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { LanguageProvider } from './context/LanguageContext';
 
 // Helper component to scroll to top on route change
 function ScrollToTop() {
@@ -68,30 +70,33 @@ export default function App() {
 
   return (
     <HelmetProvider>
-      <BrowserRouter>
-        <ScrollToTop />
-        <Layout darkMode={darkMode} setDarkMode={setDarkMode}>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/jobs/:slug" element={<JobPage />} />
-            <Route path="/sectors/:slug" element={<SectorPage />} />
-            <Route path="/compare" element={<ComparePage />} />
-            <Route path="/compare/:compareSlug" element={<ComparePage />} />
-            <Route path="/timeline" element={<TimelinePage />} />
-            <Route path="/quiz" element={<QuizPage />} />
-            <Route path="/blog" element={<BlogListPage />} />
-            <Route path="/blog/:slug" element={<BlogPostPage />} />
-            <Route path="/methodology" element={<MethodologyPage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/privacy" element={<PrivacyPolicyPage />} />
-            <Route path="/terms" element={<TermsPage />} />
-            <Route path="/disclaimer" element={<DisclaimerPage />} />
-            {/* Fallback 404 */}
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
-        </Layout>
-      </BrowserRouter>
+      <LanguageProvider>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Layout darkMode={darkMode} setDarkMode={setDarkMode}>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/dashboard" element={<DashboardPage />} />
+              <Route path="/jobs/:slug" element={<JobPage />} />
+              <Route path="/sectors/:slug" element={<SectorPage />} />
+              <Route path="/compare" element={<ComparePage />} />
+              <Route path="/compare/:compareSlug" element={<ComparePage />} />
+              <Route path="/timeline" element={<TimelinePage />} />
+              <Route path="/quiz" element={<QuizPage />} />
+              <Route path="/blog" element={<BlogListPage />} />
+              <Route path="/blog/:slug" element={<BlogPostPage />} />
+              <Route path="/methodology" element={<MethodologyPage />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+              <Route path="/privacy" element={<PrivacyPolicyPage />} />
+              <Route path="/terms" element={<TermsPage />} />
+              <Route path="/disclaimer" element={<DisclaimerPage />} />
+              {/* Fallback 404 */}
+              <Route path="*" element={<NotFoundPage />} />
+            </Routes>
+          </Layout>
+        </BrowserRouter>
+      </LanguageProvider>
     </HelmetProvider>
   );
 }

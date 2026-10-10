@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { Search, Moon, Sun, Menu, X, Globe, Sparkles, Command } from 'lucide-react';
+import { Search, Moon, Sun, Menu, X, Globe, Sparkles, Command, BarChart3 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useLanguage, LanguageCode } from '../context/LanguageContext';
 
 interface NavbarProps {
   darkMode: boolean;
@@ -17,7 +18,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [languageMenuOpen, setLanguageMenuOpen] = useState(false);
-  const [currentLang, setCurrentLang] = useState<'en' | 'hi' | 'te'>('en');
+  const { language, setLanguage, t } = useLanguage();
   const location = useLocation();
 
   // Scroll detection for shrinking / shadow
@@ -36,19 +37,20 @@ export const Navbar: React.FC<NavbarProps> = ({
   }, [location.pathname]);
 
   const navLinks = [
-    { label: 'Jobs', to: '/#all-jobs' },
-    { label: 'Sectors', to: '/#sectors' },
-    { label: 'Compare', to: '/compare' },
-    { label: 'Quiz', to: '/quiz' },
-    { label: 'Timeline', to: '/timeline' },
-    { label: 'Dispatches', to: '/blog' },
-    { label: 'Methodology', to: '/methodology' },
+    { label: t('nav.jobs', 'Jobs'), to: '/#all-jobs' },
+    { label: t('nav.sectors', 'Sectors'), to: '/#sectors' },
+    { label: t('nav.dashboard', 'Dashboard'), to: '/dashboard' },
+    { label: t('nav.compare', 'Compare'), to: '/compare' },
+    { label: t('nav.quiz', 'Quiz'), to: '/quiz' },
+    { label: t('nav.timeline', 'Timeline'), to: '/timeline' },
+    { label: t('nav.dispatches', 'Dispatches'), to: '/blog' },
+    { label: t('nav.methodology', 'Methodology'), to: '/methodology' },
   ];
 
   const languages = [
-    { code: 'en', label: 'English', native: 'English' },
-    { code: 'hi', label: 'Hindi', native: 'हिन्दी' },
-    { code: 'te', label: 'Telugu', native: 'తెలుగు' },
+    { code: 'en' as LanguageCode, label: 'English', native: 'English', flag: '🇬🇧' },
+    { code: 'hi' as LanguageCode, label: 'Hindi', native: 'हिन्दी', flag: '🇮🇳' },
+    { code: 'te' as LanguageCode, label: 'Telugu', native: 'తెలుగు', flag: '🇮🇳' },
   ] as const;
 
   return (
@@ -141,10 +143,11 @@ export const Navbar: React.FC<NavbarProps> = ({
                 onClick={() => setLanguageMenuOpen(!languageMenuOpen)}
                 aria-expanded={languageMenuOpen}
                 aria-label="Change language"
-                className="p-2 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-slate-100 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600"
-                title="Switch Language"
+                className="flex items-center gap-1 p-1.5 sm:px-2 text-slate-700 dark:text-slate-200 hover:text-slate-900 dark:hover:text-slate-100 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 font-mono text-xs"
+                title="Switch Language (English / हिन्दी / తెలుగు)"
               >
-                <Globe className="w-4 h-4" />
+                <Globe className="w-3.5 h-3.5 text-teal-700 dark:text-teal-400" />
+                <span className="uppercase font-bold text-[11px]">{language}</span>
               </button>
 
               <AnimatePresence>
@@ -154,25 +157,29 @@ export const Navbar: React.FC<NavbarProps> = ({
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 6, scale: 0.95 }}
                     transition={{ duration: 0.15 }}
-                    className="absolute right-0 mt-1.5 w-36 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg shadow-xl py-1 z-50 text-xs"
+                    className="absolute right-0 mt-1.5 w-44 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg shadow-xl py-1 z-50 text-xs"
                   >
-                    <div className="px-3 py-1 text-[10px] uppercase font-mono text-slate-400">
-                      Language
+                    <div className="px-3 py-1 text-[10px] uppercase font-mono text-slate-400 dark:text-slate-500 font-bold border-b border-slate-100 dark:border-slate-800 pb-1 mb-1">
+                      Select Language
                     </div>
                     {languages.map((l) => (
                       <button
                         key={l.code}
                         type="button"
                         onClick={() => {
-                          setCurrentLang(l.code);
+                          setLanguage(l.code);
                           setLanguageMenuOpen(false);
                         }}
-                        className={`w-full text-left px-3 py-1.5 flex items-center justify-between hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors ${
-                          currentLang === l.code ? 'text-teal-700 dark:text-teal-400 font-semibold' : 'text-slate-700 dark:text-slate-300'
+                        className={`w-full text-left px-3 py-2 flex items-center justify-between hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors ${
+                          language === l.code ? 'text-teal-700 dark:text-teal-300 font-bold bg-teal-50/50 dark:bg-teal-950/30' : 'text-slate-700 dark:text-slate-200'
                         }`}
                       >
-                        <span>{l.native}</span>
-                        {currentLang === l.code && <span className="text-[10px] text-teal-600 font-mono">✓</span>}
+                        <span className="flex items-center gap-2">
+                          <span>{l.flag}</span>
+                          <span>{l.native}</span>
+                          <span className="text-[10px] text-slate-400 font-mono">({l.label})</span>
+                        </span>
+                        {language === l.code && <span className="text-[11px] text-teal-600 dark:text-teal-400 font-mono font-bold">✓</span>}
                       </button>
                     ))}
                   </motion.div>
@@ -250,18 +257,18 @@ export const Navbar: React.FC<NavbarProps> = ({
               </nav>
 
               <div className="pt-3 mt-3 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between text-xs text-slate-500">
-                <span>Select Language:</span>
-                <div className="flex items-center gap-2">
+                <span className="font-mono text-[11px] uppercase text-slate-400">Language:</span>
+                <div className="flex items-center gap-1.5">
                   {languages.map((l) => (
                     <button
                       key={l.code}
                       onClick={() => {
-                        setCurrentLang(l.code);
+                        setLanguage(l.code);
                         setMobileMenuOpen(false);
                       }}
-                      className={`px-2 py-1 rounded ${
-                        currentLang === l.code
-                          ? 'bg-teal-700 text-white font-medium'
+                      className={`px-2 py-1 rounded text-xs transition-colors ${
+                        language === l.code
+                          ? 'bg-teal-700 text-white font-semibold'
                           : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300'
                       }`}
                     >

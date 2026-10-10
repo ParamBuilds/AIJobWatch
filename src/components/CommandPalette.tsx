@@ -37,7 +37,9 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
     : [];
 
   const quickNav = [
+    { title: 'National 3D Labor & Activity Dashboard', path: '/dashboard', icon: Layers, tag: 'Dashboard' },
     { title: 'Compare Any Two Careers', path: '/compare', icon: ArrowLeftRight, tag: 'Tool' },
+    { title: 'Career Vulnerability Quiz', path: '/quiz', icon: HelpCircle, tag: 'Quiz' },
     { title: 'India 2023–2035 Timeline', path: '/timeline', icon: Layers, tag: 'Timeline' },
     { title: 'Scoring Methodology & Sources', path: '/methodology', icon: HelpCircle, tag: 'Research' },
   ];

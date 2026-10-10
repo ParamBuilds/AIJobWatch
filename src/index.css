@@ -1,16 +1,72 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
 @layer base {
   :root {
     --font-serif: 'Fraunces', 'Playfair Display', Georgia, Cambria, serif;
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --font-mono: 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
     --color-bg-light: #FAF8F4;
-    --color-bg-dark: #0C111C;
+    --color-bg-dark: #0A0F1D;
     --color-surface-light: #FFFFFF;
-    --color-surface-dark: #131A29;
+    --color-surface-dark: #111827;
     --color-accent: #0F766E;
     --color-accent-hover: #115E59;
+
+    /* Shadcn & Contribution Skyline Variables */
+    --background: #FAF8F4;
+    --foreground: #0F172A;
+    --card: #FFFFFF;
+    --card-foreground: #0F172A;
+    --popover: #FFFFFF;
+    --popover-foreground: #0F172A;
+    --primary: #0F766E;
+    --primary-foreground: #FFFFFF;
+    --secondary: #F1F5F9;
+    --secondary-foreground: #0F172A;
+    --muted: #F1F5F9;
+    --muted-foreground: #64748B;
+    --accent: #F1F5F9;
+    --accent-foreground: #0F172A;
+    --destructive: #EF4444;
+    --destructive-foreground: #FFFFFF;
+    --border: #E2E8F0;
+    --input: #E2E8F0;
+    --ring: #0F766E;
+
+    --color-muted-foreground: #64748B;
+    --color-border: #E2E8F0;
+    --color-background: #FFFFFF;
+    --color-foreground: #0F172A;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --background: #0A0F1D;
+    --foreground: #F8FAFC;
+    --card: #111827;
+    --card-foreground: #F8FAFC;
+    --popover: #111827;
+    --popover-foreground: #F8FAFC;
+    --primary: #14B8A6;
+    --primary-foreground: #042F2E;
+    --secondary: #1E293B;
+    --secondary-foreground: #F8FAFC;
+    --muted: #1E293B;
+    --muted-foreground: #94A3B8;
+    --accent: #1E293B;
+    --accent-foreground: #F8FAFC;
+    --destructive: #7F1D1D;
+    --destructive-foreground: #F8FAFC;
+    --border: #1E293B;
+    --input: #1E293B;
+    --ring: #14B8A6;
+
+    --color-muted-foreground: #94A3B8;
+    --color-border: #334155;
+    --color-background: #0A0F1D;
+    --color-foreground: #F8FAFC;
   }
 
   html {
@@ -27,7 +83,152 @@
 
   .dark body {
     background-color: var(--color-bg-dark);
-    color: #F3F4F6;
+    color: #F8FAFC;
+  }
+
+  /* High-contrast readability safeguards for dark mode */
+  .dark h1,
+  .dark h2,
+  .dark h3,
+  .dark h4,
+  .dark h5,
+  .dark h6 {
+    color: #F8FAFC;
+  }
+
+  .dark .text-slate-900,
+  .dark .text-slate-800,
+  .dark .text-gray-900,
+  .dark .text-gray-800,
+  .dark .text-neutral-900 {
+    color: #F8FAFC;
+  }
+
+  .dark .text-slate-700,
+  .dark .text-gray-700,
+  .dark .text-neutral-700 {
+    color: #E2E8F0;
+  }
+
+  .dark .text-slate-600,
+  .dark .text-gray-600,
+  .dark .text-neutral-600 {
+    color: #CBD5E1;
+  }
+
+  .dark .text-slate-500,
+  .dark .text-gray-500,
+  .dark .text-neutral-500 {
+    color: #94A3B8;
+  }
+
+  .dark .text-slate-400,
+  .dark .text-gray-400 {
+    color: #94A3B8;
+  }
+
+  /* Colored badge and metric text in dark mode */
+  .dark .text-amber-800,
+  .dark .text-amber-700 {
+    color: #FCD34D;
+  }
+
+  .dark .text-rose-800,
+  .dark .text-rose-700 {
+    color: #FDA4AF;
+  }
+
+  .dark .text-teal-800,
+  .dark .text-teal-700 {
+    color: #5EEAD4;
+  }
+
+  .dark .text-emerald-800,
+  .dark .text-emerald-700 {
+    color: #6EE7B7;
+  }
+
+  .dark .text-blue-800,
+  .dark .text-blue-700 {
+    color: #93C5FD;
+  }
+
+  .dark .text-orange-800,
+  .dark .text-orange-700 {
+    color: #FDBA74;
+  }
+
+  .dark .text-purple-800,
+  .dark .text-purple-700 {
+    color: #D8B4FE;
+  }
+
+  /* Badge and container backgrounds in dark mode */
+  .dark .bg-amber-50,
+  .dark .bg-amber-100 {
+    background-color: rgba(69, 26, 3, 0.45);
+  }
+
+  .dark .bg-rose-50,
+  .dark .bg-rose-100 {
+    background-color: rgba(76, 5, 25, 0.45);
+  }
+
+  .dark .bg-teal-50,
+  .dark .bg-teal-100 {
+    background-color: rgba(4, 47, 46, 0.45);
+  }
+
+  .dark .bg-emerald-50,
+  .dark .bg-emerald-100 {
+    background-color: rgba(6, 78, 59, 0.45);
+  }
+
+  .dark .bg-orange-50,
+  .dark .bg-orange-100 {
+    background-color: rgba(67, 20, 7, 0.45);
+  }
+
+  .dark .bg-slate-50 {
+    background-color: rgba(30, 41, 59, 0.55);
+  }
+
+  .dark .bg-slate-100 {
+    background-color: rgba(30, 41, 59, 0.65);
+  }
+
+  .dark .border-slate-300 {
+    border-color: #334155;
+  }
+
+  .dark .border-slate-200,
+  .dark .border-slate-100 {
+    border-color: rgba(51, 65, 85, 0.6);
+  }
+
+  /* Google Translate bar cleanup & concealment */
+  .goog-te-banner-frame,
+  .skiptranslate iframe,
+  #goog-gt-tt,
+  .goog-te-balloon-frame {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  body {
+    top: 0px !important;
+    position: static !important;
+  }
+  .goog-tooltip,
+  .goog-tooltip:hover {
+    display: none !important;
+  }
+  .goog-text-highlight {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  font {
+    background-color: transparent !important;
+    box-shadow: none !important;
   }
 
   h1, h2, h3, .font-serif-heading {

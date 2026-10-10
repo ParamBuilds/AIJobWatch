@@ -4,36 +4,39 @@ import { CountUp } from '../animations/CountUp';
 import { Reveal } from '../animations/Reveal';
 import { Briefcase, Layers, BookOpen, Lock } from 'lucide-react';
 import { AbstractCardAccent } from '../abstract/AbstractCardAccent';
+import { useLanguage } from '../../context/LanguageContext';
 
 export const StatsStrip: React.FC = () => {
   const shouldReduceMotion = useReducedMotion();
+  const { t } = useLanguage();
+
   const stats = [
     {
       value: 40,
       suffix: '',
-      label: 'Indian Careers Analyzed',
-      description: 'Decomposed into discrete automatable tasks',
+      label: t('stats.jobsCount', 'Indian Careers Analyzed'),
+      description: t('stats.jobsDesc', 'Decomposed into discrete automatable tasks'),
       icon: Briefcase,
     },
     {
       value: 11,
       suffix: '',
-      label: 'Economic Sectors Covered',
-      description: 'From BPO & IT to Healthcare & Agriculture',
+      label: t('stats.sectorsCount', 'Economic Sectors Covered'),
+      description: t('stats.sectorsDesc', 'From BPO & IT to Healthcare & Agriculture'),
       icon: Layers,
     },
     {
       value: 350,
       suffix: '+',
-      label: 'Research Studies & Data Inputs',
-      description: 'NASSCOM, PLFS, ILO, and Stanford HAI citations',
+      label: t('stats.studiesCount', 'Research Studies & Data Inputs'),
+      description: t('stats.studiesDesc', 'NASSCOM, PLFS, ILO, and Stanford HAI citations'),
       icon: BookOpen,
     },
     {
       value: 100,
       suffix: '%',
-      label: 'Private & Local Processing',
-      description: 'Zero cookies required, no user data collected',
+      label: t('stats.privateCount', 'Private & Local Processing'),
+      description: t('stats.privateDesc', 'Zero cookies required, no user data collected'),
       icon: Lock,
     },
   ];
