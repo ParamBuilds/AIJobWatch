@@ -29,6 +29,9 @@ import { AbstractBannerPoster } from '../components/abstract/AbstractBannerPoste
 import { AbstractSectionDivider } from '../components/abstract/AbstractSectionDivider';
 import { AbstractCardAccent } from '../components/abstract/AbstractCardAccent';
 import { AbstractMetricGlyph } from '../components/abstract/AbstractMetricGlyph';
+import { KineticRadarMotion } from '../components/home/KineticRadarMotion';
+import { AIWorkforceParticleWave } from '../components/animations/AIWorkforceParticleWave';
+import { IndiaStateOfAIPortfolio } from '../components/home/IndiaStateOfAIPortfolio';
 import { useLanguage } from '../context/LanguageContext';
 import jobsData from '../data/jobs.json';
 import sectorsData from '../data/sectors.json';
@@ -122,6 +125,11 @@ export const HomePage: React.FC = () => {
               <Link to="/jobs/staff-nurse" className="underline hover:text-teal-800 dark:hover:text-teal-300">Staff Nurse</Link>
               <span aria-hidden="true">·</span>
               <Link to="/jobs/content-writer" className="underline hover:text-teal-800 dark:hover:text-teal-300">Content Writer</Link>
+            </div>
+
+            {/* Interactive Kinetic AI Vector Particle Wave */}
+            <div className="mt-8">
+              <AIWorkforceParticleWave height={160} />
             </div>
           </Reveal>
         </div>
@@ -275,6 +283,13 @@ export const HomePage: React.FC = () => {
             </div>
           </Reveal>
         </div>
+      </section>
+
+      {/* 4.5 KINETIC MOTION GRAPHIC: WORKFORCE AUTOMATION RADAR */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 my-14">
+        <Reveal>
+          <KineticRadarMotion />
+        </Reveal>
       </section>
 
       <AbstractSectionDivider code="SEC-02 // SECTOR DYNAMICS" label="11 Economic Clusters" />
@@ -520,6 +535,15 @@ export const HomePage: React.FC = () => {
 
       {/* In-Content Ad Slot */}
       <AdSlot position="in-content" />
+
+      <AbstractSectionDivider code="SEC-04 // NATIONAL PORTFOLIO & FAQ" label="Indian Workforce Strategy & FAQ" />
+
+      {/* 6.5 COMPREHENSIVE 2026 INDIA STATE OF AI & FAQ PORTFOLIO */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 my-14">
+        <Reveal>
+          <IndiaStateOfAIPortfolio />
+        </Reveal>
+      </section>
 
       {/* 7. METHODOLOGY TEASER SECTION */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 my-16">

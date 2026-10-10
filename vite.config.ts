@@ -1,20 +1,22 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
-import path from 'path';
-import {defineConfig} from 'vite';
+import { fileURLToPath } from 'node:url';
+import { defineConfig } from 'vite';
+
+const rootDir = fileURLToPath(new URL('.', import.meta.url));
 
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: [
-        { find: '@/components/ui', replacement: path.resolve(__dirname, './src/components/ui') },
-        { find: '@/components', replacement: path.resolve(__dirname, './src/components') },
-        { find: '@/lib', replacement: path.resolve(__dirname, './src/lib') },
-        { find: '@/context', replacement: path.resolve(__dirname, './src/context') },
-        { find: '@/data', replacement: path.resolve(__dirname, './src/data') },
-        { find: '@/pages', replacement: path.resolve(__dirname, './src/pages') },
-        { find: '@', replacement: path.resolve(__dirname, './src') },
+        { find: '@/components/ui', replacement: fileURLToPath(new URL('./src/components/ui', import.meta.url)) },
+        { find: '@/components', replacement: fileURLToPath(new URL('./src/components', import.meta.url)) },
+        { find: '@/lib', replacement: fileURLToPath(new URL('./src/lib', import.meta.url)) },
+        { find: '@/context', replacement: fileURLToPath(new URL('./src/context', import.meta.url)) },
+        { find: '@/data', replacement: fileURLToPath(new URL('./src/data', import.meta.url)) },
+        { find: '@/pages', replacement: fileURLToPath(new URL('./src/pages', import.meta.url)) },
+        { find: '@', replacement: fileURLToPath(new URL('./src', import.meta.url)) },
       ],
     },
     server: {
