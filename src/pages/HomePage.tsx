@@ -10,7 +10,9 @@ import {
   Mail,
   Sparkles,
   Compass,
-  ArrowUpRight
+  ArrowUpRight,
+  Calculator,
+  Layers
 } from 'lucide-react';
 import { HeroDriftingChips } from '../components/home/HeroDriftingChips';
 import { AnimatedHeadline } from '../components/home/AnimatedHeadline';
@@ -286,6 +288,98 @@ export const HomePage: React.FC = () => {
           <AbstractBannerPoster />
         </Reveal>
       </div>
+
+      {/* 5.6 FLAGSHIP INTERACTIVE INTELLIGENCE SUITE */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 my-16">
+        <Reveal>
+          <div className="rounded-2xl bg-gradient-to-br from-slate-900 via-slate-950 to-teal-950 p-6 sm:p-8 text-white border border-teal-800/40 shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-teal-500/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="relative z-10">
+              <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+                <div>
+                  <span className="text-[11px] font-mono uppercase tracking-widest text-teal-400 font-bold block mb-1">
+                    NEW FEATURE RELEASE // INTERACTIVE ENGINES
+                  </span>
+                  <h3 className="text-2xl sm:text-3xl font-bold font-serif-heading text-white">
+                    Simulate Your AI Resilience & Career Trajectory
+                  </h3>
+                </div>
+                <span className="text-xs font-mono px-2.5 py-1 rounded bg-teal-900/80 border border-teal-700/80 text-teal-300">
+                  India Labor Intelligence Suite
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                {/* Tool 1: Career Transition Roadmap */}
+                <Link
+                  to="/roadmap"
+                  className="group bg-slate-800/70 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/80 hover:border-teal-500/80 transition-all flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="w-9 h-9 rounded-lg bg-teal-500/20 text-teal-400 flex items-center justify-center mb-3">
+                      <Compass className="w-5 h-5" />
+                    </div>
+                    <h4 className="text-base font-bold text-white group-hover:text-teal-300 transition-colors font-serif-heading mb-1.5 flex items-center justify-between">
+                      <span>24-Week Career Roadmap</span>
+                      <ArrowRight className="w-4 h-4 text-slate-400 group-hover:translate-x-1 group-hover:text-teal-300 transition-all" />
+                    </h4>
+                    <p className="text-xs text-slate-300 leading-relaxed mb-4">
+                      Simulate a 6-month bridge from routine occupations to high-growth AI roles. Includes skill transferability scores, IIT/SWAYAM certs, and Bengaluru/Hyderabad salary scales.
+                    </p>
+                  </div>
+                  <span className="text-[11px] font-mono text-emerald-400 font-semibold">
+                    +140% to +220% CTC Delta →
+                  </span>
+                </Link>
+
+                {/* Tool 2: Salary & Financial Risk Calculator */}
+                <Link
+                  to="/salary-calculator"
+                  className="group bg-slate-800/70 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/80 hover:border-amber-500/80 transition-all flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="w-9 h-9 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center mb-3">
+                      <Calculator className="w-5 h-5" />
+                    </div>
+                    <h4 className="text-base font-bold text-white group-hover:text-amber-300 transition-colors font-serif-heading mb-1.5 flex items-center justify-between">
+                      <span>Salary & Risk Calculator</span>
+                      <ArrowRight className="w-4 h-4 text-slate-400 group-hover:translate-x-1 group-hover:text-amber-300 transition-all" />
+                    </h4>
+                    <p className="text-xs text-slate-300 leading-relaxed mb-4">
+                      Model your 5-year CTC projection across Status Quo vs AI-Augmented career paths. Calculate emergency runway deficits and recommended upskilling budgets.
+                    </p>
+                  </div>
+                  <span className="text-[11px] font-mono text-amber-400 font-semibold">
+                    5-Year Wealth Engine →
+                  </span>
+                </Link>
+
+                {/* Tool 3: 3D National Dashboard */}
+                <Link
+                  to="/dashboard"
+                  className="group bg-slate-800/70 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/80 hover:border-teal-500/80 transition-all flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="w-9 h-9 rounded-lg bg-teal-500/20 text-teal-400 flex items-center justify-center mb-3">
+                      <Layers className="w-5 h-5" />
+                    </div>
+                    <h4 className="text-base font-bold text-white group-hover:text-teal-300 transition-colors font-serif-heading mb-1.5 flex items-center justify-between">
+                      <span>3D Isometric Skyline</span>
+                      <ArrowRight className="w-4 h-4 text-slate-400 group-hover:translate-x-1 group-hover:text-teal-300 transition-all" />
+                    </h4>
+                    <p className="text-xs text-slate-300 leading-relaxed mb-4">
+                      Interactive 365-day macro telemetry, orbital 3D camera transitions, sector risk velocity, and color palette customization (Ocean, GitHub, Ember, Grape).
+                    </p>
+                  </div>
+                  <span className="text-[11px] font-mono text-teal-400 font-semibold">
+                    Launch Interactive 3D →
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </Reveal>
+      </section>
 
       <AbstractSectionDivider code="SEC-03 // OCCUPATIONAL REGISTRY" label="Full 40-Job Indian Task Directory" />
 

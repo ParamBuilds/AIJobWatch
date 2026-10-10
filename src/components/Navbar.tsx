@@ -38,13 +38,12 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   const navLinks = [
     { label: t('nav.jobs', 'Jobs'), to: '/#all-jobs' },
-    { label: t('nav.sectors', 'Sectors'), to: '/#sectors' },
     { label: t('nav.dashboard', 'Dashboard'), to: '/dashboard' },
+    { label: t('nav.roadmap', 'Roadmap'), to: '/roadmap' },
+    { label: t('nav.salaryCalculator', 'Calculator'), to: '/salary-calculator' },
     { label: t('nav.compare', 'Compare'), to: '/compare' },
     { label: t('nav.quiz', 'Quiz'), to: '/quiz' },
     { label: t('nav.timeline', 'Timeline'), to: '/timeline' },
-    { label: t('nav.dispatches', 'Dispatches'), to: '/blog' },
-    { label: t('nav.methodology', 'Methodology'), to: '/methodology' },
   ];
 
   const languages = [

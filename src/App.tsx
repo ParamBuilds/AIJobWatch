@@ -16,6 +16,8 @@ import { ComparePage } from './pages/ComparePage';
 import { TimelinePage } from './pages/TimelinePage';
 import { QuizPage } from './pages/QuizPage';
 import { DashboardPage } from './pages/DashboardPage';
+import { CareerTransitionPage } from './pages/CareerTransitionPage';
+import { SalaryRiskCalculatorPage } from './pages/SalaryRiskCalculatorPage';
 import { BlogListPage } from './pages/BlogListPage';
 import { BlogPostPage } from './pages/BlogPostPage';
 import { MethodologyPage } from './pages/MethodologyPage';
@@ -77,6 +79,10 @@ export default function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/dashboard" element={<DashboardPage />} />
+              <Route path="/roadmap" element={<CareerTransitionPage />} />
+              <Route path="/career-transition" element={<CareerTransitionPage />} />
+              <Route path="/salary-calculator" element={<SalaryRiskCalculatorPage />} />
+              <Route path="/calculator" element={<SalaryRiskCalculatorPage />} />
               <Route path="/jobs/:slug" element={<JobPage />} />
               <Route path="/sectors/:slug" element={<SectorPage />} />
               <Route path="/compare" element={<ComparePage />} />

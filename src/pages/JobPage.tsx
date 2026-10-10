@@ -12,7 +12,8 @@ import {
   ChevronRight,
   TrendingDown,
   TrendingUp,
-  Activity
+  Activity,
+  Calculator
 } from 'lucide-react';
 import { CircularScore } from '../components/CircularScore';
 import { Breadcrumbs } from '../components/Breadcrumbs';
@@ -318,6 +319,55 @@ export const JobPage: React.FC = () => {
             </div>
           </div>
         </section>
+
+        {/* Interactive Career Action Cockpit */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-8 no-print">
+          <Link
+            to="/roadmap"
+            className="p-5 rounded-xl bg-gradient-to-br from-teal-900 to-slate-900 text-white border border-teal-700/60 shadow-sm hover:border-teal-400 transition-all group flex flex-col justify-between"
+          >
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-[11px] font-mono text-teal-300 font-bold uppercase tracking-wider">
+                  24-Week Career Bridge
+                </span>
+                <Compass className="w-5 h-5 text-teal-400 group-hover:rotate-45 transition-transform" />
+              </div>
+              <h4 className="text-base font-bold font-serif-heading text-white group-hover:text-teal-200 transition-colors mb-1">
+                Simulate Career Roadmap from {job.title}
+              </h4>
+              <p className="text-xs text-slate-300 leading-relaxed mb-3">
+                See your skill transferability score, IIT/NPTEL certification plan, and projected salary increases across Indian tech hubs.
+              </p>
+            </div>
+            <span className="text-xs font-mono font-semibold text-teal-300 flex items-center gap-1">
+              Launch Roadmap Simulator →
+            </span>
+          </Link>
+
+          <Link
+            to="/salary-calculator"
+            className="p-5 rounded-xl bg-gradient-to-br from-amber-950 to-slate-900 text-white border border-amber-800/60 shadow-sm hover:border-amber-400 transition-all group flex flex-col justify-between"
+          >
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-[11px] font-mono text-amber-300 font-bold uppercase tracking-wider">
+                  CTC & Wealth Impact
+                </span>
+                <Calculator className="w-5 h-5 text-amber-400 group-hover:scale-110 transition-transform" />
+              </div>
+              <h4 className="text-base font-bold font-serif-heading text-white group-hover:text-amber-200 transition-colors mb-1">
+                Calculate Financial Disruption Risk
+              </h4>
+              <p className="text-xs text-slate-300 leading-relaxed mb-3">
+                Project your 5-year Indian CTC trajectory, emergency savings runway deficit, and upskilling ROI in Lakhs.
+              </p>
+            </div>
+            <span className="text-xs font-mono font-semibold text-amber-300 flex items-center gap-1">
+              Run Salary Risk Model →
+            </span>
+          </Link>
+        </div>
 
         {/* Affiliate Box Component */}
         <AffiliateBox

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, X, ArrowRight, CornerDownLeft, Command, Layers, ArrowLeftRight, HelpCircle } from 'lucide-react';
+import { Search, X, ArrowRight, CornerDownLeft, Command, Layers, ArrowLeftRight, HelpCircle, Compass, Calculator } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import jobsData from '../data/jobs.json';
 import sectorsData from '../data/sectors.json';
@@ -38,10 +38,12 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
 
   const quickNav = [
     { title: 'National 3D Labor & Activity Dashboard', path: '/dashboard', icon: Layers, tag: 'Dashboard' },
-    { title: 'Compare Any Two Careers', path: '/compare', icon: ArrowLeftRight, tag: 'Tool' },
-    { title: 'Career Vulnerability Quiz', path: '/quiz', icon: HelpCircle, tag: 'Quiz' },
-    { title: 'India 2023–2035 Timeline', path: '/timeline', icon: Layers, tag: 'Timeline' },
-    { title: 'Scoring Methodology & Sources', path: '/methodology', icon: HelpCircle, tag: 'Research' },
+    { title: 'AI Career Transition & Upskilling Roadmap', path: '/roadmap', icon: Compass, tag: 'Simulator' },
+    { title: 'India AI Salary & Financial Risk Calculator', path: '/salary-calculator', icon: Calculator, tag: 'Calculator' },
+    { title: 'Compare Any Two Careers Side-by-Side', path: '/compare', icon: ArrowLeftRight, tag: 'Tool' },
+    { title: 'Career Vulnerability Diagnostic Quiz', path: '/quiz', icon: HelpCircle, tag: 'Quiz' },
+    { title: 'India 2023–2035 Automation Timeline', path: '/timeline', icon: Layers, tag: 'Timeline' },
+    { title: 'Scoring Methodology & Research Citations', path: '/methodology', icon: HelpCircle, tag: 'Research' },
   ];
 
   const totalResultsCount = query.trim() ? filteredJobs.length : quickNav.length;

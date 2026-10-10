@@ -63,6 +63,8 @@ export const Footer: React.FC = () => {
             </div>
             <ul className="space-y-1.5 list-none p-0 m-0">
               <li><Link to="/dashboard" className="text-teal-700 dark:text-teal-400 font-semibold hover:text-slate-950 dark:hover:text-slate-50 transition-colors">★ 3D National Dashboard</Link></li>
+              <li><Link to="/roadmap" className="text-emerald-700 dark:text-emerald-400 font-semibold hover:text-slate-950 dark:hover:text-slate-50 transition-colors">★ Career Transition Roadmap</Link></li>
+              <li><Link to="/salary-calculator" className="text-amber-700 dark:text-amber-400 font-semibold hover:text-slate-950 dark:hover:text-slate-50 transition-colors">★ Salary & Risk Calculator</Link></li>
               <li><Link to="/#all-jobs" className="hover:text-slate-950 dark:hover:text-slate-50 transition-colors">40 Indian Careers Index</Link></li>
               <li><Link to="/#sectors" className="hover:text-slate-950 dark:hover:text-slate-50 transition-colors">11 Economic Sectors</Link></li>
               <li><Link to="/compare" className="hover:text-slate-950 dark:hover:text-slate-50 transition-colors">Side-by-Side Job Comparison</Link></li>
